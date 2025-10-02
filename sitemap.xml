@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Root -->
   <url>
     <loc>https://asads.ca/</loc>
@@ -54,6 +55,7 @@
   <url><loc>https://asads.ca/services/home-inspection-waterloo.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://asads.ca/services/home-inspection-whitby.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
-  <!-- This was outside urlset; now fixed -->
+  <!-- Seasonal service -->
   <url><loc>https://asads.ca/services/leaf-cleanup.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+
 </urlset>
