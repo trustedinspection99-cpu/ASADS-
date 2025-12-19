@@ -1,145 +1,163 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<!doctype html>
+<html lang="en-CA" dir="ltr" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>New Construction Inspection | Pre-Delivery & Tarion | ASADS</title>
-<meta name="description" content="Independent new-build inspections for houses & condos in Toronto & the GTA. PDI/Pre-Delivery, 30-Day/Tarion, and 1-Year warranty reviews. Same-day, photo-rich report."/>
-<link rel="canonical" href="https://asads.ca/services/new-construction-inspection.html"/>
-<link rel="icon" href="https://asads.ca/favicon.ico"/>
-<link rel="stylesheet" href="/assets/site.css"/>
-<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1"/>
+  <title>Top Home Inspection Toronto & GTA | Certified Master Inspectors | ASADS</title>
+  <meta name="description" content="The GTA's most comprehensive home inspection service. From thermal imaging to structural audits, we provide detailed deficiency reports for Toronto, Mississauga & Vaughan. 24/7 Booking. Same-day digital reports.">
+  
+  <meta name="keywords" content="home inspection Toronto, best home inspector GTA, Mississauga property inspection, Vaughan building inspector, structural engineering review, attic mold remediation check, wet basement solutions Toronto, knob and tube wiring replacement cost, aluminum wiring safety, Federal Pacific panel hazard, furnace heat exchanger crack, AC compressor testing, roof shingle life expectancy, ice damming prevention, sump pump failure, backwater valve installation, lead pipe identification, asbestos testing Toronto, radon gas mitigation, thermal imaging leak detection, real estate condition removal, pre-listing home inspection, Tarion warranty specialist, commercial property inspection Ontario">
+  
+  <link rel="canonical" href="https://asads.ca/services/home-inspection.html">
+  
+  <style>
+    :root {
+      --primary: #1a3e6b; --secondary: #000000; --accent: #e22f28; --accent-dark: #c92a24;
+      --white: #ffffff; --off-white: #fcfcfc; --light: #f5f6f8; --dark: #212529;
+      --font-body: 'Poppins', sans-serif; --radius-lg: 12px;
+      --shadow-lg: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+    
+    body { margin: 0; font-family: var(--font-body); line-height: 1.8; color: var(--dark); background-color: var(--white); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--white); box-shadow: 0 4px 12px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 1100; padding: 15px 0; }
+    .header-container { display: flex; justify-content: space-between; align-items: center; }
+    .logo { font-size: 32px; font-weight: 900; color: var(--primary); text-decoration: none; }
+    
+    .btn { display: inline-flex; align-items: center; justify-content: center; padding: 18px 36px; border-radius: 6px; font-weight: 700; text-transform: uppercase; transition: 0.3s; text-decoration: none; }
+    .btn-primary { background-color: var(--accent); color: var(--white); }
+    .btn-primary:hover { background-color: var(--accent-dark); transform: translateY(-3px); }
 
-<!-- Open Graph -->
-<meta property="og:type" content="website"/>
-<meta property="og:title" content="New Construction Inspection | PDI & Tarion | ASADS"/>
-<meta property="og:description" content="Third-party new-build inspections: PDI, 30-Day/Tarion, 1-Year warranty. Defect list for your builder + same-day digital report."/>
-<meta property="og:url" content="https://asads.ca/services/new-construction-inspection.html"/>
-<meta property="og:image" content="https://asads.ca/logo.png"/>
+    .hero-section { background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1920&q=80') center/cover; color: var(--white); padding: 140px 0; text-align: center; }
+    .hero-content h1 { font-size: 4rem; margin-bottom: 20px; font-weight: 900; }
+    
+    .main-grid { display: grid; grid-template-columns: 2.5fr 1fr; gap: 50px; margin-top: 60px; }
+    .article-body { background: var(--white); padding: 50px; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); }
+    
+    .tech-box { background: #f0f4f8; border-left: 6px solid var(--primary); padding: 30px; margin: 30px 0; border-radius: 0 8px 8px 0; }
+    .tech-box h3 { margin-top: 0; color: var(--primary); font-size: 1.5rem; }
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="New Construction Inspection | PDI & Tarion | ASADS"/>
-<meta name="twitter:description" content="Independent inspector for your new home or condo. We document defects so the builder fixes them fast."/>
-<meta name="twitter:image" content="https://asads.ca/logo.png"/>
+    .kw-cluster { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin: 40px 0; }
+    .kw-item h4 { color: var(--accent); margin-bottom: 5px; }
+    .kw-item p { font-size: 0.95rem; }
 
-<!-- Schema: Service -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"Service",
-  "name":"New Construction Inspection",
-  "serviceType":"Home Inspection",
-  "provider":{"@type":"LocalBusiness","name":"ASADS"},
-  "areaServed":"Toronto & GTA",
-  "telephone":"+16478019311",
-  "url":"https://asads.ca/services/new-construction-inspection.html"
-}
-</script>
+    .sidebar { position: sticky; top: 120px; height: fit-content; }
+    .sidebar-card { background: var(--light); padding: 30px; border-radius: 12px; border: 1px solid #ddd; margin-bottom: 30px; }
+    
+    .sticky-cta { position: fixed; bottom: 0; width: 100%; background: var(--secondary); color: white; padding: 15px; display: flex; justify-content: space-around; align-items: center; z-index: 2000; }
 
-<!-- Schema: Breadcrumb -->
-<script type="application/ld+json">
-{
- "@context":"https://schema.org",
- "@type":"BreadcrumbList",
- "itemListElement":[
-  {"@type":"ListItem","position":1,"name":"Home","item":"https://asads.ca/"},
-  {"@type":"ListItem","position":2,"name":"Services","item":"https://asads.ca/#services"},
-  {"@type":"ListItem","position":3,"name":"New Construction Inspection","item":"https://asads.ca/services/new-construction-inspection.html"}
- ]
-}
-</script>
-
-<!-- Schema: FAQ -->
-<script type="application/ld+json">
-{
- "@context":"https://schema.org",
- "@type":"FAQPage",
- "mainEntity":[
-  {"@type":"Question","name":"What stages do you inspect?",
-   "acceptedAnswer":{"@type":"Answer","text":"Pre-Delivery Inspection (PDI), 30-Day/Tarion and 1-Year warranty reviews. We can also perform pre-drywall progress checks on request."}},
-  {"@type":"Question","name":"What gets reported?",
-   "acceptedAnswer":{"@type":"Answer","text":"Cosmetic and functional defects, missing components, safety issues, poor workmanship and incomplete items—organized in a punch-list that maps to Tarion categories."}},
-  {"@type":"Question","name":"Do you use thermal imaging?",
-   "acceptedAnswer":{"@type":"Answer","text":"Yes—targeted thermal imaging helps flag insulation gaps, missing air-sealing and potential moisture concerns."}}
- ]
-}
-</script>
+    @media (max-width: 992px) { .main-grid { grid-template-columns: 1fr; } .hero-content h1 { font-size: 2.8rem; } .kw-cluster { grid-template-columns: 1fr; } }
+  </style>
 </head>
 <body>
-<header class="site-header">
-  <div class="container navbar">
-    <a class="brand" href="/"><span>ASADS</span> Home Inspection</a>
-    <nav class="nav"><a href="/#services">Services</a><a href="/#contact">Contact</a><a href="/#about">About</a></nav>
-    <a class="call-btn" href="tel:+16478019311">Call (647) 801-9311</a>
-  </div>
-</header>
 
-<div class="breadcrumb"><div class="container">
-  <a href="/">Home</a> › <a href="/#services">Services</a> › <span>New Construction Inspection</span>
-</div></div>
-
-<section class="hero">
-  <div class="container">
-    <div class="kicker">PDI • 30-Day/Tarion • 1-Year Warranty</div>
-    <h1 class="h1">New Construction Inspection</h1>
-    <p class="sub">Independent documentation of defects and incomplete work so your builder fixes items within warranty timelines. Same-day, photo-rich report.</p>
-  </div>
-</section>
-
-<main class="section">
-  <div class="container grid">
-    <article class="card"><div class="pad">
-      <h2>What We Check</h2>
-      <ul class="check">
-        <li>Exterior & grading, structure, roofing and attic</li>
-        <li>Windows/doors, finishes, trim, cabinetry & tile</li>
-        <li>Electrical, plumbing, HVAC startup & safety</li>
-        <li class="badge">Thermal scan for insulation gaps & air leaks</li>
-        <li class="badge">Tarion-aligned punch-list with photos</li>
-      </ul>
-
-      <h2 style="margin-top:22px">Packages</h2>
-      <ul class="check">
-        <li><strong>PDI (Pre-Delivery):</strong> cosmetic & functional items before key hand-off</li>
-        <li><strong>30-Day/Tarion:</strong> defects after move-in; urgent items prioritized</li>
-        <li><strong>1-Year:</strong> settlement cracks, performance issues, seasonal items</li>
-      </ul>
-
-      <div class="cta">
-        <a class="btn primary" href="tel:+16478019311">Book Your PDI/30-Day</a>
-        <a class="btn outline" href="mailto:asadslandscapinginc@gmail.com">Request a Sample Report</a>
-      </div>
-    </div></article>
-
-    <aside class="side">
-      <div class="card"><div class="pad">
-        <h3>Related Services</h3>
-        <a href="/services/30-day-warranty-inspection.html">30-Day Warranty Inspection</a>
-        <a href="/services/infrared-thermal-imaging.html">Infrared Thermal Imaging</a>
-        <a href="/services/same-day-reports.html">Same-Day Reports</a>
-      </div></div>
-
-      <div class="card" style="margin-top:16px"><div class="pad">
-        <a class="btn primary full" href="tel:+16478019311">Call / Text 647-801-9311</a>
-      </div></div>
-    </aside>
-  </div>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-top">
-      <div><div class="brand"><span>ASADS</span> Home Inspection</div>
-        <p>Trusted, independent inspectors serving Toronto & the GTA since 2015.</p></div>
-      <div><h3>Contact</h3>
-        <p><a href="tel:+16478019311">📞 (647) 801-9311</a></p>
-        <p><a href="mailto:info@asads.ca">✉️ info@asads.ca</a></p>
-    <div><h3>Quick Links</h3>
-        <p><a href="/#services">Our Services</a></p>
-        <p><a href="/#contact">Contact</a></p>
-        <p><a href="/">Home</a></p></div>
+  <header>
+    <div class="container header-container">
+      <a href="/" class="logo">ASADS</a>
+      <nav>
+        <a href="tel:+16478019311" class="btn btn-primary">📞 Call (647) 801-9311</a>
+      </nav>
     </div>
-    <div class="copy">© 2015 ASADS. All rights reserved.</div>
+  </header>
+  
+  <section class="hero-section">
+    <div class="container">
+      <h1>The Ultimate Home Inspection Guide for Toronto & GTA Buyers</h1>
+      <p style="font-size: 1.5rem; max-width: 900px; margin: 20px auto;">Exposing hidden defects and structural risks in Ontario real estate. Certified Master Inspectors providing 24/7 service.</p>
+    </div>
+  </section>
+  
+  <main class="container">
+    <div class="main-grid">
+      <div class="article-body">
+        <h2>Why Every GTA Property Requires a Technical Audit</h2>
+        <p>The Greater Toronto Area features a unique architectural landscape, from Victorian-era brick homes in Cabbagetown to modern glass-walled condos in the Downtown Core. Each property type presents specific risks. A standard "visual" inspection is no longer enough. At ASADS, we provide a **Building Science-based evaluation** that identifies safety hazards, code non-compliance, and impending mechanical failures.</p>
+        
+        <div class="tech-box">
+          <h3>Infrared Leak Detection & Building Science</h3>
+          <p>Thermal imaging is non-negotiable in the Ontario climate. We utilize FLIR® infrared technology to identify **thermal bridging**, missing insulation in cathedral ceilings, and hidden moisture patterns behind finished basement walls. This is critical for detecting early-stage **efflorescence** on foundation walls—a primary indicator of poor exterior drainage or hydrostatic pressure.</p>
+        </div>
+
+        
+
+        <h3>The Deep-Dive Technical Checklist</h3>
+        <p>Our 500-point inspection protocol covers every square inch of the property. We provide an exhaustive analysis of the following critical clusters:</p>
+
+        <div class="kw-cluster">
+          <div class="kw-item">
+            <h4>1. Roofing & Building Envelope</h4>
+            <p>We evaluate asphalt shingles for granular loss, cupping, and clawing. We check for proper **ice damming** protection (Ice & Water Shield) and ensure the attic ventilation meets the 1/300 ratio required by the Ontario Building Code.</p>
+          </div>
+          <div class="kw-item">
+            <h4>2. Structural & Foundation</h4>
+            <p>Analysis of poured concrete, cinder block, and stone foundations. We identify **settlement cracks**, step-cracks in brick veneer, and sagged floor joists. We check for "Post-and-Beam" integrity and sill plate rot.</p>
+          </div>
+          <div class="kw-item">
+            <h4>3. Electrical Safety Standards</h4>
+            <p>Exposing outdated **Knob-and-Tube wiring**, ungrounded branch circuits, and dangerous **Aluminum wiring** connections. We inspect electrical panels for Federal Pacific or Zinsco components known to be fire hazards.</p>
+          </div>
+          <div class="kw-item">
+            <h4>4. Plumbing & Waste Management</h4>
+            <p>Identifying **Kitec plumbing**, galvanized supply lines, and polybutylene piping. We check for **cross-connections**, proper P-traps, and verify the operation of sump pumps and backwater valves.</p>
+          </div>
+          <div class="kw-item">
+            <h4>5. HVAC & Interior Climate</h4>
+            <p>Testing gas-fired furnaces for cracked heat exchangers (Carbon Monoxide risk) and evaluating AC compressor health. We also inspect HRV/ERV systems for proper air exchange rates.</p>
+          </div>
+          <div class="kw-item">
+            <h4>6. Environmental Hazards</h4>
+            <p>Visual identification of potential **Asbestos-Containing Materials (ACM)** like vermiculite or 9x9 floor tiles. We also scan for visible mold and provide air quality testing if required.</p>
+          </div>
+        </div>
+
+        <h3>Understanding Your Inspection Report</h3>
+        <p>Your ASADS report is a legal-grade document delivered the same day. Each deficiency is categorized by severity:</p>
+        <ul>
+          <li><strong>Major Defect:</strong> Structural failures or systems that have reached the end of their useful life (e.g., a 20-year-old roof or failed furnace).</li>
+          <li><strong>Safety Hazard:</strong> Immediate risks such as missing GFCI protection, exposed wiring, or gas leaks.</li>
+          <li><strong>Repair/Monitor:</strong> Minor issues like weathered caulking or slow faucets that can be addressed post-closing.</li>
+        </ul>
+
+        <h3>Real Estate Negotiation Leverage</h3>
+        <p>In a "Buyer’s Market," our report is your strongest negotiation tool. By identifying $15,000 in roofing and electrical upgrades, you have the data needed to request a price reduction or an "Amendment to the Agreement of Purchase and Sale." In "Seller’s Markets," a pre-listing inspection speeds up the transaction by removing the "fear of the unknown" for potential bidders.</p>
+
+        <h3>Serving Your Local Community</h3>
+        <p>We are the trusted choice for homeowners in **Toronto, North York, Etobicoke, Scarborough, Mississauga, Brampton, Vaughan, Woodbridge, Maple, Richmond Hill, Markham, Oakville, Milton, and Burlington.** Our localized knowledge of GTA soil conditions (like the clay in Brampton or the high water tables in South Oakville) allows us to predict foundation issues before they become disasters.</p>
+      </div>
+
+      <div class="sidebar">
+        <div class="sidebar-card">
+          <h3>GTA Service Areas</h3>
+          <p>We provide 24/7 priority booking across the entire Golden Horseshoe.</p>
+          <ul style="padding-left: 20px;">
+            <li>Toronto (Core & GTA)</li>
+            <li>Peel Region</li>
+            <li>York Region</li>
+            <li>Halton Region</li>
+            <li>Durham Region</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card" style="background: var(--primary); color: white;">
+          <h3 style="color: white;">Expert Quote</h3>
+          <p>Get a flat-rate price based on your property square footage and age. No hidden fees.</p>
+          <a href="tel:+16478019311" class="btn btn-primary" style="width:100%; box-sizing: border-box;">Get Price Now</a>
+        </div>
+
+        <div class="sidebar-card">
+          <h3>Certifications</h3>
+          <p>✓ InterNACHI Certified Master<br>✓ WETT Certified (Wood Energy)<br>✓ IAC2 Mold Certified<br>✓ Fully Insured & Bonded</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="sticky-cta">
+    <div style="font-weight: 800;">DON'T BUY WITHOUT AN INSPECTION</div>
+    <a href="tel:+16478019311" class="btn btn-primary" style="padding: 12px 24px;">Call (647) 801-9311</a>
   </div>
-</footer>
-</body></html>
+
+</body>
+</html>
