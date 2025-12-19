@@ -271,7 +271,7 @@
       .mobile-menu-toggle {
         display: flex;
       }
-      
+     
       nav ul {
         position: fixed;
         top: 60px;
@@ -1505,9 +1505,6 @@
   <!-- Header -->
   <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
     <div class="container header-container">
-      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        <span>☰</span>
-      </button>
       
       <div class="logo" itemprop="name">ASADS</div>
       
@@ -1534,7 +1531,8 @@
     <section class="hero-section" aria-labelledby="hero-heading" itemprop="mainContentOfPage">
       <div class="container hero-content">
         <h1 id="hero-heading" itemprop="headline">
-          <h1>#1 Certified Home Inspection in Toronto & GTA</h1>
+  #1 Certified Home Inspection in Toronto & GTA
+</h1>
         
         
         <p itemprop="description">
@@ -1555,8 +1553,6 @@
         </div>
       </div>
     </section>
-
-    <main>
 
 <section id="seo-intro" class="home-inspection-section">
   <div class="container">
@@ -1800,10 +1796,10 @@
 
 </main>
     <!-- Trust Bar -->
-    <section id="hero" style="padding: 40px 20px; text-align: center; background: #ffffff;">
-  <h1 style="font-size: 1.8rem; color: #002d5b; line-height: 1.2; font-weight: 800; margin-bottom: 15px;">
+   <section class="trust-bar-section" aria-labelledby="trust-bar-title" style="padding: 40px 20px; text-align: center; background: #ffffff;">
+  <h2 id="trust-bar-title" style="font-size: 1.8rem; color: #002d5b; line-height: 1.2; font-weight: 800; margin-bottom: 15px;">
     #1 Certified Home Inspection <span style="color: #d32f2f;">Toronto & GTA</span>
-  </h1>
+  </h2>
   <p style="font-size: 1rem; color: #444; line-height: 1.5; margin-bottom: 25px;">
     Your Trusted Local Experts Since 2015. Delivering <strong>Same-Day Digital Reports</strong> with Thermal Imaging.
   </p>
@@ -1864,7 +1860,6 @@
     </div>
   </div>
 </section>
->
 <section style="padding: 50px 20px; background: #fff;">
   <h2 style="color: #002d5b; font-size: 1.5rem; text-align: center; margin-bottom: 15px;">
     The GTA’s Most Trusted Specialists
@@ -2093,13 +2088,6 @@
       </div>
 
       <div class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-        <h3 itemprop="name">What is the biggest red flag in a home inspection?</h3>
-        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">The biggest red flags are <strong>structural foundation cracks</strong> (especially horizontal ones wider than 1/4 inch), <strong>outdated aluminum wiring</strong>, and <strong>active mold or water damage</strong>. ASADS provides licensed repair estimates so you know potential costs before purchase.</p>
-        </div>
-      </div>
-
-      <div class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
         <h3 itemprop="name">Who pays for a home inspection in Ontario?</h3>
         <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
           <p itemprop="text">In Ontario, the <strong>buyer typically pays</strong> for the home inspection as part of their due diligence. However, smart sellers are increasingly booking <strong>pre-listing inspections</strong> to find issues early and avoid "deal-breakers" during negotiations.</p>
@@ -2151,11 +2139,13 @@
       <div class="faq-item" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
         <h3 itemprop="name">What are the 5 most common home inspection issues in the GTA?</h3>
         <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-          <p itemprop="text">1. <strong>Water Damage:</strong> Basement seepage, poor grading<br>
-          2. <strong>Roofing:</strong> Aging shingles or flashing<br>
-          3. <strong>Electrical:</strong> Double-tapped breakers, ungrounded outlets<br>
-          4. <strong>HVAC:</strong> End-of-life furnaces, cracked heat exchangers<br>
-          5. <strong>Structural:</strong> Sagging joists in older homes</p>
+        <p itemprop="text">
+1. <strong>Water Damage:</strong> Basement seepage, poor grading.
+2. <strong>Roofing:</strong> Aging shingles or flashing.
+3. <strong>Electrical:</strong> Double-tapped breakers, ungrounded outlets.
+4. <strong>HVAC:</strong> End-of-life furnaces, cracked heat exchangers.
+5. <strong>Structural:</strong> Sagging joists in older homes.
+</p>
         </div>
       </div>
 
@@ -2190,8 +2180,7 @@
           <h3 id="contact-title" class="text-center">Get Your Free Toronto Home Inspection Quote</h3>
           <p class="text-center mb-md">Fill out this form or call <a href="tel:+16478019311">647-801-9311</a> for immediate service.</p>
           
-          <form id="quoteForm" action="https://formsubmit.co/your
-          info@asads.ca" method="POST">
+          <form id="quoteForm" action="https://formsubmit.co/info@asads.ca" method="POST">
             <!-- CSRF Token for Production -->
             <input type="hidden" name="_csrf" value="generate-csrf-token-on-server">
             <input type="hidden" name="_subject" value="ASADS Home Inspection Quote Request - Toronto">
@@ -2303,7 +2292,7 @@
         <div style="position: absolute; top: 0; right: 0; background: #e31e24; color: #fff; font-size: 0.65rem; padding: 5px 15px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px;">Live Now</div>
         <h4 style="margin-top: 0; color: #888; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px;">24/7 Priority Booking</h4>
         <a href="tel:+16478019311" style="color: #e31e24; font-size: 2.2rem; font-weight: 900; text-decoration: none; display: block; margin: 10px 0; transition: color 0.3s;" itemprop="telephone">(647) 801-9311</a>
-        <p style="color: #666; font-size: 0.9rem; margin: 0;" itemprop="areaServed">Serving Toronto, GTA, and Golden Horseshoe (150km Radius).</p>
+        <p style="color: #666; font-size: 0.9rem; margin: 0;" itemprop="areaServed">Serving Toronto, GTA Area (150km Radius).</p>
       </div>
     </div>
 
@@ -2360,7 +2349,7 @@
     </div>
 
     <div style="margin-top: 50px; text-align: center; border-top: 1px solid #222; padding-top: 30px; color: #555; font-size: 0.85rem;">
-      <p style="margin-bottom: 10px;">&copy; 2015‑2025 ASADS Home Inspection. All Rights Reserved.</p>
+      
       <div style="display: flex; justify-content: center; gap: 20px;">
         <a href="/privacy-policy" style="color: #666; text-decoration: none;">Privacy Policy</a>
         <a href="/terms-of-service" style="color: #666; text-decoration: none;">Terms of Service</a>
@@ -2368,25 +2357,23 @@
       </div>
     </div>
 
-  </div>
-
-  <div itemscope itemtype="https://schema.org/FAQPage" style="display:none;">
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><meta itemprop="name" content="How long does a home inspection take?"><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><meta itemprop="text" content="Most inspections take 2-4 hours depending on property size."></div></div>
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><meta itemprop="name" content="Do you provide same-day reports?"><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><meta itemprop="text" content="Yes, we provide digital home inspection reports on the same day."></div></div>
+     </div>
   </div>
 
   <meta itemprop="url" content="https://asads.ca">
   <meta itemprop="logo" content="https://asads.ca/logo.png">
   <meta itemprop="priceRange" content="$$">
-  <meta itemprop="sameAs" content="https://www.facebook.com/ASADSHomeInspection">
-  <meta itemprop="sameAs" content="https://www.instagram.com/asads_home_inspection">
+  <meta itemprop="sameAs" content="https://www.facebook.com/ASADSHomeInspection, https://www.instagram.com/asads_home_inspection">
+<p style="margin-bottom: 10px;">
+  &copy; <span id="current-year"></span> ASADS Home Inspection. All Rights Reserved.
+</p>
 </footer>
 
 
 
   
   <!-- Sticky CTA -->
-  <div class="sticky-cta" aria-label="Emergency booking call to action">
+  <div class="sticky-cta" role="region" aria-live="polite" aria-label="Emergency booking call to action">
     <div class="sticky-cta-text">
       NEED URGENT HOME INSPECTION? CALL NOW!
     </div>
@@ -2426,31 +2413,60 @@
       });
     }
     
-/* /* Mobile Navigation Toggle & Link Fix */
-const mobileToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('nav ul');
+/* Mobile Navigation Toggle & Link Handling */
+(() => {
+  const mobileToggle = document.querySelector('.mobile-menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+  const body = document.body;
 
-if (mobileToggle && navMenu) {
-    // 1. Handle the Hamburger Click
-    mobileToggle.addEventListener('click', function() {
-        const isActive = navMenu.classList.toggle('active');
-        this.setAttribute('aria-expanded', isActive);
-        this.innerHTML = isActive ? '✕' : '☰'; 
-    });
+  if (!mobileToggle || !navMenu) return;
 
-    // 2. Handle the Bubble Click (Close menu & Scroll)
-    navMenu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            // Remove 'active' class to hide the menu
-            navMenu.classList.remove('active');
-            // Reset the toggle icon to hamburger
-            mobileToggle.innerHTML = '☰';
-            mobileToggle.setAttribute('aria-expanded', 'false');
-            
-            // The browser will now naturally scroll to the #ID
-        });
+  const openMenu = () => {
+    navMenu.classList.add('active');
+    mobileToggle.setAttribute('aria-expanded', 'true');
+    mobileToggle.innerHTML = '✕';
+    body.classList.add('menu-open'); // lock scroll (optional CSS)
+  };
+
+  const closeMenu = () => {
+    navMenu.classList.remove('active');
+    mobileToggle.setAttribute('aria-expanded', 'false');
+    mobileToggle.innerHTML = '☰';
+    body.classList.remove('menu-open');
+  };
+
+  const toggleMenu = () => {
+    navMenu.classList.contains('active') ? closeMenu() : openMenu();
+  };
+
+  /* 1. Hamburger Click */
+  mobileToggle.addEventListener('click', toggleMenu);
+
+  /* 2. Nav Link Click (Close & Scroll Naturally) */
+  navMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      closeMenu();
     });
-}
+  });
+
+  /* 3. Click Outside to Close */
+  document.addEventListener('click', (e) => {
+    if (
+      navMenu.classList.contains('active') &&
+      !navMenu.contains(e.target) &&
+      !mobileToggle.contains(e.target)
+    ) {
+      closeMenu();
+    }
+  });
+
+  /* 4. ESC Key Support */
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && navMenu.classList.contains('active')) {
+      closeMenu();
+    }
+  });
+})();
 
 
     // Phone Number Formatting
@@ -2528,35 +2544,39 @@ if (mobileToggle && navMenu) {
       });
     }
     
-    // Smooth Scrolling for Anchor Links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        if (this.getAttribute('href').length > 1) { 
-          e.preventDefault();
-          const targetId = this.getAttribute('href');
-          const targetElement = document.querySelector(targetId);
-          
-          if (targetElement) {
-            // Close mobile menu if open
-            if (navMenu && navMenu.classList.contains('active')) {
-              navMenu.classList.remove('active');
-              mobileToggle.setAttribute('aria-expanded', 'false');
-              mobileToggle.innerHTML = '☰';
-            }
-            
-            // Smooth scroll
-            window.scrollTo({
-              top: targetElement.offsetTop - 80,
-              behavior: 'smooth'
-            });
-            
-            // Update URL without page reload
-            history.pushState(null, null, targetId);
-          }
-        }
-      });
+/* FIXED nav anchor scrolling (mobile-safe) */
+document.querySelectorAll('nav a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function (e) {
+    const targetId = this.getAttribute('href');
+    const target = document.querySelector(targetId);
+
+    if (!target) return; // allow default if ID doesn't exist
+
+    e.preventDefault();
+
+    const header = document.querySelector('header');
+    const headerOffset = header ? header.offsetHeight : 80;
+    const elementTop = target.getBoundingClientRect().top + window.pageYOffset;
+
+    // Close mobile menu cleanly
+    const navMenu = document.querySelector('nav ul');
+    const mobileToggle = document.querySelector('.mobile-menu-toggle');
+
+    if (navMenu?.classList.contains('active')) {
+      navMenu.classList.remove('active');
+      mobileToggle?.setAttribute('aria-expanded', 'false');
+      mobileToggle && (mobileToggle.innerHTML = '☰');
+      document.body.classList.remove('menu-open');
+    }
+
+    window.scrollTo({
+      top: elementTop - headerOffset,
+      behavior: 'smooth'
     });
-    
+
+    history.pushState(null, '', targetId);
+  });
+});
     // Header Shadow on Scroll
     const header = document.querySelector('header');
     if (header) {
@@ -2614,4 +2634,4 @@ if (mobileToggle && navMenu) {
     });
   </script>
 </body>
-  </html>
+          </html>
