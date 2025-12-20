@@ -1,897 +1,130 @@
 <!doctype html>
-<html lang="en-CA" dir="ltr" prefix="og: https://ogp.me/ns#" itemscope itemtype="https://schema.org/WebPage">
+<html lang="en-CA" dir="ltr" prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!-- PRIMARY SEO -->
   <title>Toronto Deck Builder & Fence Construction | ASADS Outdoor Services</title>
-  <meta name="description" content="Expert deck builders and fence installers in Toronto & GTA. We specialize in long-lasting backyard builds using deep footings and premium wood. Call 647-801-9311.">
+  <meta name="description" content="Expert deck builders and fence installers in Toronto & GTA. Specialized in frost-proof footings and premium wood construction. Call 647-801-9311.">
   
-  <meta name="keywords" content="deck builder Toronto, fence construction GTA, backyard renovation Mississauga, cedar fence Vaughan, pressure treated deck Markham, deck repairs Brampton, privacy fence installation, Ontario building code decks, deck railing repair, custom gate builder, deck staining Toronto, pool fencing GTA, composite decking Oakville, wooden fence installation, deck foundation Toronto">
-  
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://asads.ca/outdoor/deck-fence-construction.html">
   
-  <!-- LOCAL SEO -->
-  <meta name="geo.region" content="CA-ON">
-  <meta name="geo.placename" content="Toronto">
-  <meta name="geo.position" content="43.653226;-79.383184">
-  <meta name="ICBM" content="43.653226, -79.383184">
-  <meta name="location" content="Toronto, Ontario, Canada">
-  
-  <!-- OPEN GRAPH -->
-  <meta property="og:title" content="Toronto Deck Builder & Fence Construction | ASADS Outdoor">
-  <meta property="og:description" content="Quality backyard construction across GTA. Solid decks with deep footings and beautiful, lasting fences.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://asads.ca/outdoor/deck-fence-construction.html">
-  <meta property="og:image" content="https://asads.ca/images/og-deck-fence-toronto.jpg">
-  <meta property="og:site_name" content="ASADS Outdoor">
-  
-  <!-- STRUCTURED DATA -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "HomeAndConstructionBusiness",
-        "name": "ASADS Outdoor",
-        "url": "https://asads.ca",
-        "telephone": "+1-647-801-9311",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Toronto",
-          "addressRegion": "ON",
-          "addressCountry": "CA"
-        },
-        "areaServed": ["Toronto", "Mississauga", "Vaughan", "Markham", "Brampton", "Oakville", "Richmond Hill"],
-        "description": "Professional deck and fence construction company serving Toronto and GTA with quality backyard builds.",
-        "openingHours": "Mo-Su 07:00-19:00"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://asads.ca/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Outdoor Services",
-            "item": "https://asads.ca/outdoor"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Deck & Fence Construction",
-            "item": "https://asads.ca/outdoor/deck-fence-construction.html"
-          }
-        ]
-      }
-    ]
-  }
-  </script>
-
   <style>
+    /* Integrating your Root Variables for Brand Consistency */
     :root {
-      --primary: #1a3e6b; --secondary: #2c3e50; --accent: #27ae60; --accent-dark: #219653;
-      --light: #f4f7f6; --dark: #2c3e50; --white: #ffffff; --gray: #7f8c8d;
-      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      --radius: 12px; --shadow: 0 4px 20px rgba(0,0,0,0.08);
-      --transition: all 0.3s ease;
+      --primary: #1a3e6b; --secondary: #000000; --accent: #27ae60; --accent-dark: #219653;
+      --white: #ffffff; --light: #f4f7f6; --dark: #212529;
+      --font-main: 'Poppins', sans-serif;
+      --shadow: 0 4px 20px rgba(0,0,0,0.08);
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body { 
-      font-family: var(--font-main); 
-      line-height: 1.7; 
-      color: var(--dark); 
-      background: #fdfdfd; 
-      overflow-x: hidden; 
-      width: 100%; 
-      padding-bottom: 80px;
-    }
-    
-    .container { 
-      width: 100%; 
-      max-width: 1200px; 
-      margin: 0 auto; 
-      padding: 0 20px; 
-    }
+    body { font-family: var(--font-main); line-height: 1.7; color: var(--dark); margin:0; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
 
-    /* HEADER */
-    header { 
-      background: var(--white); 
-      box-shadow: 0 2px 15px rgba(0,0,0,0.08); 
-      position: sticky; 
-      top: 0; 
-      z-index: 1000; 
-      padding: 15px 0;
-    }
-    
-    .navbar { 
-      display: flex; 
-      justify-content: space-between; 
-      align-items: center;
-    }
-    
-    .brand { 
-      font-size: 28px; 
-      font-weight: 900; 
-      color: var(--primary); 
-      text-decoration: none; 
-      text-transform: uppercase;
-      letter-spacing: -0.5px;
-    }
-    
-    .brand span { 
-      color: var(--accent); 
-    }
-    
-    .brand-tagline {
-      display: block;
-      font-size: 12px;
-      color: var(--gray);
-      font-weight: 500;
-      margin-top: -3px;
-      letter-spacing: 1px;
-    }
-    
-    .header-cta { 
-      background: var(--accent); 
-      color: white; 
-      padding: 12px 24px; 
-      border-radius: 8px; 
-      text-decoration: none; 
-      font-weight: 700; 
-      font-size: 15px;
-      transition: var(--transition);
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      box-shadow: 0 4px 12px rgba(39, 174, 96, 0.3);
-    }
-    
-    .header-cta:hover {
-      background: var(--accent-dark);
-      transform: translateY(-2px);
-      box-shadow: 0 6px 18px rgba(39, 174, 96, 0.4);
-    }
+    header { background: var(--white); box-shadow: 0 2px 15px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 1000; padding: 15px 0; }
+    .navbar { display: flex; justify-content: space-between; align-items: center; }
+    .brand { font-size: 28px; font-weight: 900; color: var(--primary); text-decoration: none; text-transform: uppercase; }
+    .brand span { color: var(--accent); }
 
-    /* HERO */
-    .hero { 
-      background: linear-gradient(rgba(26, 62, 107, 0.92), rgba(26, 62, 107, 0.88)), 
-                  url('https://images.unsplash.com/photo-1590054252571-0f4f9f74313d?auto=format&fit=crop&w=1600&q=80') center/cover; 
-      color: white; 
-      padding: 80px 0; 
-      text-align: center;
-      position: relative;
-    }
+    .hero { background: linear-gradient(rgba(26, 62, 107, 0.9), rgba(26, 62, 107, 0.8)), url('https://images.unsplash.com/photo-1590054252571-0f4f9f74313d?auto=format&fit=crop&w=1600&q=80') center/cover; color: white; padding: 80px 0; text-align: center; }
     
-    .hero h1 { 
-      font-size: 2.5rem; 
-      margin-bottom: 20px; 
-      font-weight: 800; 
-      line-height: 1.2;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    
-    .hero p { 
-      font-size: 1.2rem; 
-      opacity: 0.95; 
-      max-width: 700px; 
-      margin: 0 auto 30px;
-      font-weight: 400;
-    }
-    
-    .hero-badges {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin-top: 30px;
-    }
-    
-    .badge {
-      background: rgba(255,255,255,0.15);
-      padding: 8px 20px;
-      border-radius: 50px;
-      font-size: 0.9rem;
-      border: 1px solid rgba(255,255,255,0.2);
-      backdrop-filter: blur(10px);
-    }
+    .main-grid { display: grid; grid-template-columns: 2.5fr 1fr; gap: 40px; margin: 50px 0; }
+    @media (max-width: 992px) { .main-grid { grid-template-columns: 1fr; } }
 
-    /* BREADCRUMB */
-    .breadcrumb {
-      background: var(--light);
-      padding: 15px 0;
-      font-size: 0.9rem;
-    }
+    .content-area { background: var(--white); padding: 35px; border-radius: 12px; box-shadow: var(--shadow); border-top: 6px solid var(--accent); }
     
-    .breadcrumb a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-    
-    .breadcrumb a:hover {
-      text-decoration: underline;
-    }
-    
-    .breadcrumb span {
-      color: var(--gray);
-    }
+    .info-card { background: #f8fafc; padding: 25px; border-radius: 10px; border-left: 5px solid var(--accent); margin-bottom: 25px; }
 
-    /* MAIN LAYOUT */
-    .main-grid { 
-      display: grid; 
-      grid-template-columns: 1fr; 
-      gap: 40px; 
-      margin: 50px 0;
-    }
-    
-    @media (min-width: 992px) { 
-      .main-grid { 
-        grid-template-columns: 2.5fr 1fr; 
-      } 
-    }
+    .sidebar-box { background: #f1f5f9; padding: 30px; border-radius: 12px; margin-bottom: 30px; }
+    .side-list { list-style: none; padding: 0; }
+    .side-list li { padding: 10px 0; border-bottom: 1px solid #ddd; display: flex; align-items: center; gap: 10px; }
+    .side-list li::before { content: '✓'; color: var(--accent); font-weight: bold; }
 
-    /* CONTENT AREA */
-    .content-area { 
-      background: var(--white); 
-      padding: 35px; 
-      border-radius: var(--radius); 
-      box-shadow: var(--shadow); 
-      border-top: 6px solid var(--accent);
-    }
+    .btn-primary { background: var(--accent); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 700; display: inline-block; }
     
-    h2 { 
-      font-size: 1.9rem; 
-      color: var(--primary); 
-      margin-bottom: 25px; 
-      padding-bottom: 15px;
-      border-bottom: 2px solid #f0f0f0;
-      position: relative;
-    }
-    
-    h2:after {
-      content: '';
-      position: absolute;
-      bottom: -2px;
-      left: 0;
-      width: 70px;
-      height: 2px;
-      background: var(--accent);
-    }
-    
-    h3 { 
-      margin: 30px 0 20px; 
-      color: var(--primary); 
-      font-size: 1.4rem;
-    }
-
-    /* INFO CARDS */
-    .info-card { 
-      background: #f8fafc; 
-      padding: 25px; 
-      border-radius: 10px; 
-      border-left: 5px solid var(--accent); 
-      margin-bottom: 25px;
-      transition: var(--transition);
-    }
-    
-    .info-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    }
-    
-    .info-card h4 { 
-      margin-bottom: 12px; 
-      font-size: 1.2rem; 
-      color: var(--primary); 
-    }
-
-    /* TABLE */
-    .table-container { 
-      width: 100%; 
-      overflow-x: auto; 
-      margin: 30px 0;
-      border-radius: 10px;
-      border: 1px solid #e8e8e8;
-    }
-    
-    table { 
-      width: 100%; 
-      border-collapse: collapse; 
-      min-width: 600px; 
-      background: white;
-    }
-    
-    th { 
-      background: var(--primary); 
-      color: white; 
-      text-align: left; 
-      padding: 16px 20px;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 0.9rem;
-      letter-spacing: 0.5px;
-    }
-    
-    td { 
-      padding: 16px 20px; 
-      border-bottom: 1px solid #eee; 
-    }
-    
-    tr:nth-child(even) {
-      background: #f9f9f9;
-    }
-    
-    tr:hover {
-      background: #f0f7ff;
-    }
-
-    /* SIDEBAR */
-    .sidebar-box { 
-      background: #f1f5f9; 
-      padding: 30px; 
-      border-radius: var(--radius); 
-      margin-bottom: 30px;
-      border: 1px solid #e2e8f0;
-    }
-    
-    .sidebar-box h3 { 
-      margin-top: 0; 
-      font-size: 1.3rem; 
-      margin-bottom: 20px;
-      color: var(--primary);
-    }
-    
-    .sidebar-box h4 {
-      margin-top: 0;
-      font-size: 1.1rem;
-      color: var(--primary);
-      margin-bottom: 15px;
-    }
-    
-    .side-list { 
-      list-style: none; 
-      margin: 0;
-      padding: 0;
-    }
-    
-    .side-list li { 
-      padding: 12px 0; 
-      border-bottom: 1px solid #e2e8f0; 
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    
-    .side-list li:before {
-      content: '✓';
-      color: var(--accent);
-      font-weight: bold;
-    }
-
-    /* SERVICE AREAS */
-    .service-areas {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-      gap: 15px;
-      margin: 25px 0 35px;
-    }
-    
-    .area-tag {
-      background: #f0f7ff;
-      padding: 10px 15px;
-      border-radius: 50px;
-      text-align: center;
-      font-size: 0.9rem;
-      border: 1px solid #d6e4ff;
-      transition: var(--transition);
-    }
-    
-    .area-tag:hover {
-      background: var(--primary);
-      color: white;
-      border-color: var(--primary);
-    }
-
-    /* TESTIMONIAL */
-    .testimonial {
-      background: linear-gradient(135deg, var(--primary) 0%, #2c5282 100%);
-      color: white;
-      padding: 35px;
-      border-radius: var(--radius);
-      margin: 40px 0;
-      position: relative;
-    }
-    
-    .testimonial:before {
-      content: '"';
-      font-size: 100px;
-      color: rgba(255,255,255,0.1);
-      position: absolute;
-      top: -25px;
-      left: 15px;
-      font-family: Georgia, serif;
-    }
-
-    /* FAQ */
-    .faq-item {
-      border-bottom: 1px solid #eee;
-      padding: 20px 0;
-    }
-    
-    .faq-question {
-      font-weight: 700;
-      color: var(--primary);
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    
-    .faq-question:after {
-      content: '+';
-      font-size: 1.5rem;
-    }
-
-    /* CONTACT FORM */
-    .contact-form {
-      background: var(--white);
-      padding: 40px;
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      margin: 50px 0;
-      border-top: 5px solid var(--accent);
-    }
-    
-    .form-group {
-      margin-bottom: 25px;
-    }
-    
-    .form-label {
-      display: block;
-      font-weight: 700;
-      margin-bottom: 8px;
-      color: var(--dark);
-    }
-    
-    .form-input {
-      width: 100%;
-      padding: 15px;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-      font-size: 1rem;
-      font-family: var(--font-main);
-    }
-    
-    .form-input:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1);
-    }
-    
-    .submit-btn {
-      background: var(--accent);
-      color: white;
-      border: none;
-      padding: 16px 40px;
-      border-radius: 6px;
-      font-size: 1.1rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: var(--transition);
-      width: 100%;
-    }
-    
-    .submit-btn:hover {
-      background: var(--accent-dark);
-    }
-
-    /* STICKY CTA */
-    .sticky-cta { 
-      position: fixed; 
-      bottom: 0; 
-      left: 0; 
-      width: 100%; 
-      background: var(--secondary); 
-      color: white; 
-      padding: 15px 0; 
-      z-index: 2000; 
-      box-shadow: 0 -4px 15px rgba(0,0,0,0.2);
-    }
-    
-    .sticky-inner {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-    
-    .sticky-text {
-      font-weight: 700;
-      font-size: 1rem;
-    }
-    
-    .sticky-phone {
-      background: var(--accent);
-      color: white;
-      padding: 10px 25px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: var(--transition);
-    }
-    
-    .sticky-phone:hover {
-      background: var(--accent-dark);
-      transform: scale(1.05);
-    }
-
-    /* FOOTER */
-    footer {
-      background: var(--dark);
-      color: #ddd;
-      padding: 50px 0 25px;
-      margin-top: 80px;
-    }
-    
-    .footer-content {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 40px;
-      margin-bottom: 40px;
-    }
-    
-    .footer-section h3 {
-      color: white;
-      margin-bottom: 20px;
-      font-size: 1.2rem;
-      border-bottom: 2px solid var(--accent);
-      padding-bottom: 10px;
-    }
-    
-    .copyright {
-      text-align: center;
-      padding-top: 25px;
-      border-top: 1px solid #444;
-      color: #aaa;
-      font-size: 0.9rem;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 768px) { 
-      .hero h1 { 
-        font-size: 2rem; 
-      } 
-      
-      .hero {
-        padding: 60px 0;
-      }
-      
-      .content-area { 
-        padding: 25px; 
-      }
-      
-      .main-grid {
-        margin: 30px 0;
-        gap: 25px;
-      }
-      
-      .sidebar-box {
-        padding: 25px;
-      }
-      
-      .sticky-inner {
-        flex-direction: column;
-        text-align: center;
-      }
-      
-      .hero-badges {
-        gap: 10px;
-      }
-      
-      .badge {
-        font-size: 0.8rem;
-        padding: 6px 15px;
-      }
-    }
-    
-    @media (max-width: 480px) {
-      .hero h1 {
-        font-size: 1.7rem;
-      }
-      
-      .hero p {
-        font-size: 1rem;
-      }
-      
-      .content-area {
-        padding: 20px;
-      }
-    }
-
-    /* UTILITY */
-    .text-center { text-align: center; }
-    .mb-20 { margin-bottom: 20px; }
-    .mb-30 { margin-bottom: 30px; }
-    .mt-20 { margin-top: 20px; }
-    .mt-30 { margin-top: 30px; }
-    .mt-40 { margin-top: 40px; }
-    .text-bold { font-weight: 700; }
-    .text-accent { color: var(--accent); }
+    footer { background: var(--dark); color: #ddd; padding: 50px 0 25px; text-align: center; }
+    .sticky-cta { position: fixed; bottom: 0; width: 100%; background: #2c3e50; color: white; padding: 15px; display: flex; justify-content: space-around; align-items: center; z-index: 2000; }
   </style>
 </head>
 <body>
 
 <header>
   <div class="container navbar">
-    <a class="brand" href="/">
-      <span>ASADS</span> Outdoor
-      <span class="brand-tagline">Quality Backyard Construction</span>
-    </a>
-    <a href="tel:+16478019311" class="header-cta">
-      📞 647-801-9311
-    </a>
+    <a class="brand" href="/"><span>ASADS</span> Outdoor</a>
+    <a href="tel:+16478019311" class="btn-primary">📞 647-801-9311</a>
   </div>
 </header>
 
-<div class="breadcrumb">
-  <div class="container">
-    <a href="/">Home</a> › 
-    <a href="/outdoor">Outdoor Services</a> › 
-    <span>Deck & Fence Construction</span>
-  </div>
-</div>
-
 <section class="hero">
   <div class="container">
-    <h1>Quality Decks & Fences Built to Last</h1>
-    <p>Professional backyard construction across Toronto & the GTA. We build solid, beautiful outdoor spaces that stand up to the winter.</p>
-    
-    <div class="hero-badges">
-      <div class="badge">4-Foot Deep Footings</div>
-      <div class="badge">Free On-Site Quotes</div>
-      <div class="badge">GTA-Wide Service</div>
-      <div class="badge">10+ Years Experience</div>
-    </div>
+    <h1>Master-Built Decks & Fences</h1>
+    <p>Professional backyard construction designed by Certified Inspectors to withstand the GTA climate.</p>
   </div>
 </section>
 
 <main class="container">
   <div class="main-grid">
     <article class="content-area">
-      <h2>Professional Backyard Construction in Toronto</h2>
-      <p>A great backyard starts with a solid foundation. In Toronto, the ground freezes and thaws constantly, which can cause cheap decks and fences to lean or crack. At ASADS, we use <strong>certified building science</strong> to ensure your project stays level and strong for decades.</p>
+      <h2>Engineering Excellence for Your Backyard</h2>
+      <p>As **Certified Master Inspectors**, we don't just build for aesthetics; we build for structural integrity. In Toronto, the frost line is a critical factor that most amateur builders ignore, leading to heaving decks and leaning fences within three years.</p>
 
-      <h3>Why Our Decks Are Stronger</h3>
       
+
+      <h3>The ASADS Foundation Standard</h3>
       <div class="info-card">
-        <h4>4-Foot Concrete Footings</h4>
-        <p>We dig every deck support 48 inches deep. This gets below the "frost line," so the freezing ground can't push your deck upward in the winter. This is crucial for Toronto's climate where we get 30+ freeze-thaw cycles each year.</p>
+        <h4>Frost-Proof 4-Foot Footings</h4>
+        <p>We anchor every deck with 48-inch concrete sonotubes. This ensures your investment stays level through Ontario's intense freeze-thaw cycles.</p>
       </div>
 
-      <div class="info-card">
-        <h4>Heavy-Duty Framing</h4>
-        <p>We use thick, pressure-treated lumber for the skeleton of your deck. This wood is specially treated to resist rot, mold, and Toronto’s humidity. All our framing meets or exceeds Ontario Building Code requirements.</p>
-      </div>
+      [Image showing deck ledger board flashing and proper water drainage mechanics]
 
       <div class="info-card">
-        <h4>Proper Water Drainage</h4>
-        <p>We slope deck boards slightly so rainwater runs off instead of pooling. This prevents rot and extends the life of your deck. We also ensure proper spacing between boards for drainage and expansion.</p>
+        <h4>Water Management & Ledger Protection</h4>
+        <p>The #1 cause of deck failure is rot at the house connection. We utilize high-grade flashing and stand-off brackets to ensure water never enters your home's structure.</p>
       </div>
 
-      <h3 class="mt-40">Choose Your Decking Material</h3>
-      <p>Each material has its own benefits. Here's what works best in Toronto's climate:</p>
-      
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Material</th>
-              <th>How Long It Lasts in Toronto</th>
-              <th>Maintenance Needed</th>
-              <th>Best For</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Pressure Treated Wood</strong></td>
-              <td>15-20 Years</td>
-              <td>Stain every 2 years</td>
-              <td>Budget-friendly projects</td>
-            </tr>
-            <tr>
-              <td><strong>Western Red Cedar</strong></td>
-              <td>25-30 Years</td>
-              <td>Natural aging or light sealant</td>
-              <td>Classic, natural look</td>
-            </tr>
-            <tr>
-              <td><strong>Composite (Trex/Azek)</strong></td>
-              <td>30+ Years</td>
-              <td>Just wash with soap & water</td>
-              <td>Low-maintenance living</td>
-            </tr>
-            <tr>
-              <td><strong>PVC Decking</strong></td>
-              <td>25+ Years</td>
-              <td>Occasional cleaning</td>
-              <td>Pool areas & wet locations</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <h3>Material Comparison</h3>
+      <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+        <tr style="background: var(--primary); color: white;">
+          <th style="padding: 10px;">Material</th>
+          <th style="padding: 10px;">Longevity</th>
+          <th style="padding: 10px;">Maintenance</th>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">Pressure Treated</td>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">15-20 Years</td>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">High (Stain)</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">Cedar</td>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">25+ Years</td>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">Medium</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">Composite (Trex)</td>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">30+ Years</td>
+          <td style="padding: 10px; border-bottom: 1px solid #eee;">Low (Wash)</td>
+        </tr>
+      </table>
 
-      <h3 class="mt-40">Custom Fencing for Privacy & Security</h3>
-      <p>We install fences that don't just look good—they act as a privacy barrier and windbreak. Our posts are set deep in concrete to prevent sagging or blowing over during Toronto's high-wind storms.</p>
-      
-      <div class="info-card">
-        <h4>Privacy Fences</h4>
-        <p>Classic 6-foot designs in wood or vinyl that give you complete backyard privacy. Perfect for families in busy Toronto neighborhoods.</p>
-      </div>
-      
-      <div class="info-card">
-        <h4>Modern Styles</h4>
-        <p>Horizontal slat fences for a contemporary Toronto look. These designs are popular in newer developments across Vaughan and Mississauga.</p>
-      </div>
-      
-      <div class="info-card">
-        <h4>Sturdy Gates</h4>
-        <p>We use heavy-duty hardware and proper bracing so your gates never sag. Every gate swings smoothly and closes securely.</p>
-      </div>
-
-      <div class="testimonial">
-        <p>"ASADS built our cedar deck in Etobicoke three years ago. It survived two harsh winters without any movement or issues. Their attention to detail was impressive - they even helped us with the Toronto building permit."</p>
-        <p class="mt-20"><strong>– Sarah K., Etobicoke, Toronto</strong></p>
-      </div>
-
-      <h3 class="mt-40">Serving All GTA Neighborhoods</h3>
-      <p>We work across the Greater Toronto Area, including:</p>
-      
-      <div class="service-areas">
-        <div class="area-tag">Toronto</div>
-        <div class="area-tag">Mississauga</div>
-        <div class="area-tag">Vaughan</div>
-        <div class="area-tag">Markham</div>
-        <div class="area-tag">Brampton</div>
-        <div class="area-tag">Oakville</div>
-        <div class="area-tag">Richmond Hill</div>
-        <div class="area-tag">Ajax</div>
-        <div class="area-tag">Pickering</div>
-        <div class="area-tag">Burlington</div>
-        <div class="area-tag">Milton</div>
-        <div class="area-tag">Whitby</div>
-      </div>
-
-      <h3 class="mt-40">Frequently Asked Questions</h3>
-      
-      <div class="faq-item">
-        <div class="faq-question">Do you handle Toronto building permits for decks?</div>
-        <p style="display: none; margin-top: 10px;">Yes! In most GTA cities, any deck higher than 24 inches (2 feet) off the ground needs a building permit. We handle all the paperwork with your local building department.</p>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-question">How long does a typical deck installation take?</div>
-        <p style="display: none; margin-top: 10px;">Most standard decks (300-400 sq.ft.) take 4-6 days from start to finish. This includes digging footings, building the frame, and installing the decking boards.</p>
-      </div>
-      
-      <div class="faq-item">
-        <div class="faq-question">Can you build in the winter?</div>
-        <p style="display: none; margin-top: 10px;">Yes, we work year-round. For winter installations, we use special techniques and materials to ensure proper concrete curing and construction quality.</p>
-      </div>
-
-      <div class="contact-form mt-40">
-        <h3 style="margin-top: 0;">Get Your Free On-Site Quote</h3>
-        <p class="mb-30">Fill out this form and we'll contact you within 24 hours to schedule your free measurement and estimate.</p>
-        
-        <form action="https://formsubmit.co/outdoor@asads.ca" method="POST">
-          <input type="hidden" name="_subject" value="New Deck/Fence Quote Request">
-          <input type="hidden" name="_captcha" value="false">
-          
-          <div class="form-group">
-            <label class="form-label">Your Name*</label>
-            <input type="text" name="name" class="form-input" required>
-          </div>
-          
-          <div class="form-group">
-            <label class="form-label">Phone Number*</label>
-            <input type="tel" name="phone" class="form-input" required>
-          </div>
-          
-          <div class="form-group">
-            <label class="form-label">Email Address</label>
-            <input type="email" name="email" class="form-input">
-          </div>
-          
-          <div class="form-group">
-            <label class="form-label">What are you interested in?*</label>
-            <select name="service" class="form-input" required>
-              <option value="">Select service</option>
-              <option value="New Deck">New Deck Construction</option>
-              <option value="Deck Repair">Deck Repair/Resurfacing</option>
-              <option value="New Fence">New Fence Installation</option>
-              <option value="Fence Repair">Fence Repair/Replacement</option>
-              <option value="Both">Both Deck & Fence</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <label class="form-label">Your City*</label>
-            <select name="city" class="form-input" required>
-              <option value="">Select your city</option>
-              <option value="Toronto">Toronto</option>
-              <option value="Mississauga">Mississauga</option>
-              <option value="Vaughan">Vaughan</option>
-              <option value="Markham">Markham</option>
-              <option value="Brampton">Brampton</option>
-              <option value="Oakville">Oakville</option>
-              <option value="Other">Other GTA Area</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <label class="form-label">Project Details (optional)</label>
-            <textarea name="message" class="form-input" rows="3" placeholder="Tell us about your project..."></textarea>
-          </div>
-          
-          <button type="submit" class="submit-btn">Get Free Quote →</button>
-        </form>
-      </div>
+      <h3>Fence Construction</h3>
+      <p>We specialize in 6ft and 8ft privacy fencing with 6x6 post upgrades for superior wind resistance in open areas like Brampton and Milton.</p>
     </article>
 
     <aside>
+      <div class="sidebar-box">
+        <h3>Related Services</h3>
+        <ul class="side-list">
+          <li><a href="/services/home-inspection.html" style="text-decoration:none; color:inherit;">Home Inspection</a></li>
+          <li><a href="/services/electrical.html" style="text-decoration:none; color:inherit;">Outdoor Electrical</a></li>
+          <li><a href="#contact" style="text-decoration:none; color:#999;">Landscaping (Soon)</a></li>
+          <li><a href="#contact" style="text-decoration:none; color:#999;">Interlock (Soon)</a></li>
+        </ul>
+      </div>
+
       <div class="sidebar-box" style="background: var(--primary); color: white;">
-        <h3 style="color: white;">Free On-Site Estimate</h3>
-        <p>We'll come to your home, measure your space, and give you a clear, honest quote with no pressure.</p>
-        <a href="tel:+16478019311" style="display: block; background: var(--accent); color: white; text-align: center; padding: 14px; border-radius: 6px; text-decoration: none; margin-top: 20px; font-weight: 700; transition: var(--transition);">
-          📞 Call for Quote
-        </a>
-      </div>
-
-      <div class="sidebar-box">
-        <h3>Our Outdoor Services</h3>
-        <ul class="side-list">
-          <li>New Deck Construction</li>
-          <li>Wood & Vinyl Fencing</li>
-          <li>Deck Board Replacement</li>
-          <li>Stair & Railing Repairs</li>
-          <li>Post Hole Digging</li>
-          <li>Pergolas & Gazebos</li>
-          <li>Deck Staining & Sealing</li>
-          <li>Pool Fence Installation</li>
-        </ul>
-      </div>
-
-      <div class="sidebar-box">
-        <h4>Local Building Knowledge</h4>
-        <p>In most GTA cities, any deck higher than 2 feet off the ground needs a <strong class="text-bold">Building Permit</strong>. We help you handle all the paperwork with your local building department.</p>
-      </div>
-
-      <div class="sidebar-box">
-        <h4>Why Choose ASADS?</h4>
-        <ul class="side-list">
-          <li>10+ Years Experience</li>
-          <li>Deep 4-Foot Footings</li>
-          <li>Quality Materials</li>
-          <li>Clean Worksite</li>
-          <li>On-Time Completion</li>
-          <li>Serving GTA Since 2015</li>
-        </ul>
+        <h3 style="color: white;">Get a Master Quote</h3>
+        <p>Free on-site measurements and structural evaluations across the GTA.</p>
+        <a href="tel:+16478019311" class="btn-primary" style="display:block; text-align:center;">Call Now</a>
       </div>
     </aside>
   </div>
@@ -899,73 +132,18 @@
 
 <footer>
   <div class="container">
-    <div class="footer-content">
-      <div class="footer-section">
-        <h3>ASADS Outdoor</h3>
-        <p>Quality deck and fence construction across Toronto and the GTA. We build outdoor spaces that last.</p>
-      </div>
-      
-      <div class="footer-section">
-        <h3>Contact Us</h3>
-        <p><a href="tel:+16478019311" style="color: #ddd; text-decoration: none;">📞 (647) 801-9311</a></p>
-        <p><a href="mailto:outdoor@asads.ca" style="color: #ddd; text-decoration: none;">✉️ outdoor@asads.ca</a></p>
-        <p>Monday-Sunday: 7am-7pm</p>
-      </div>
-      
-      <div class="footer-section">
-        <h3>Service Areas</h3>
-        <p>Toronto, Mississauga, Vaughan, Markham, Brampton, Oakville, Richmond Hill, Ajax, Pickering, Burlington, Milton, Whitby</p>
-      </div>
-    </div>
-    
-    <div class="copyright">
-      <p>&copy; 2015-2025 ASADS Outdoor. Quality backyard construction across the GTA.</p>
-    </div>
+    <p>&copy; 2015-2025 ASADS Outdoor Construction. A division of ASADS Home Inspection.</p>
+    <p>
+      <a href="/#contact" style="color:#ddd;">Privacy Policy</a> | 
+      <a href="/sitemap.xml" style="color:#ddd;">Sitemap</a>
+    </p>
   </div>
 </footer>
 
 <div class="sticky-cta">
-  <div class="container sticky-inner">
-    <div class="sticky-text">FREE ON-SITE QUOTES • 24-HOUR RESPONSE</div>
-    <a href="tel:+16478019311" class="sticky-phone">📞 CALL 647-801-9311</a>
-  </div>
+  <div style="font-weight: bold;">FREE ESTIMATES • GTA WIDE</div>
+  <a href="tel:+16478019311" class="btn-primary" style="padding: 8px 15px;">Call 647-801-9311</a>
 </div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // FAQ toggle
-    document.querySelectorAll('.faq-question').forEach(question => {
-      question.addEventListener('click', function() {
-        const answer = this.nextElementSibling;
-        const isVisible = answer.style.display === 'block';
-        
-        // Close all other answers
-        document.querySelectorAll('.faq-question').forEach(q => {
-          q.nextElementSibling.style.display = 'none';
-          q.innerHTML = q.innerHTML.replace('−', '+');
-        });
-        
-        // Toggle current
-        if (!isVisible) {
-          answer.style.display = 'block';
-          this.innerHTML = this.innerHTML.replace('+', '−');
-        }
-      });
-    });
-    
-    // Simple form validation
-    const form = document.querySelector('form');
-    if (form) {
-      form.addEventListener('submit', function(e) {
-        const phone = this.querySelector('input[name="phone"]');
-        if (phone && !/^\d{10}$/.test(phone.value.replace(/\D/g, ''))) {
-          alert('Please enter a valid 10-digit phone number');
-          e.preventDefault();
-        }
-      });
-    }
-  });
-</script>
-
 </body>
-  </html>
+</html>
