@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<!-- Primary SEO Tags - Markham Focus -->
-<title>🏆 Best Markham Home Inspector | ASADS | 4.9★ Rated</title>
-<meta name="description" content="Markham's top-rated home inspection expert for luxury homes & new construction. Same-day thermal imaging reports. Free Quote: (647) 801-9311.">
-
+  
+  <!-- Primary SEO Tags - Markham Focus -->
+  <title>🏆 Best Markham Home Inspector | ASADS | 4.9★ Rated</title>
+  <meta name="description" content="Markham's top-rated home inspection expert for luxury homes & new construction. Same-day thermal imaging reports. Free Quote: (647) 801-9311.">
+  
   <!-- Local SEO -->
   <meta name="geo.region" content="CA-ON" />
   <meta name="geo.placename" content="Markham, York Region, Ontario" />
@@ -22,6 +23,17 @@
   <meta property="og:url" content="https://asads.ca/services/home-inspection-markham.html"/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1513584684374-8bab748fbf90"/>
   <meta property="og:site_name" content="ASADS Home Inspection Markham"/>
+  <meta property="og:locale" content="en_CA"/>
+  
+  <!-- Twitter / X Card - FIX FOR AHREFS ERROR -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@ASADS_Inspection"/>
+  <meta name="twitter:creator" content="@ASADS_Inspection"/>
+  <meta name="twitter:title" content="#1 Home Inspector Markham | Luxury & Investment Property Specialist"/>
+  <meta name="twitter:description" content="Markham's highest-rated home inspector specializing in luxury homes, new construction, and investment properties. 24/7 inspections available."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1513584684374-8bab748fbf90"/>
+  <meta name="twitter:image:alt" content="ASADS Home Inspection Markham - Certified Home Inspector for Luxury Homes & New Construction"/>
+  <meta name="twitter:url" content="https://asads.ca/services/home-inspection-markham.html"/>
   
   <!-- Canonical -->
   <link rel="canonical" href="https://asads.ca/services/home-inspection-markham.html"/>
@@ -31,71 +43,44 @@
   <!-- Preload Critical Assets -->
   <link rel="preload" href="https://images.unsplash.com/photo-1513584684374-8bab748fbf90" as="image"/>
   
-  <!-- Structured Data for Enhanced Search Results -->
+  <!-- Structured Data for Enhanced Search Results - UPDATED -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "HomeAndConstructionBusiness",
-        "@id": "https://asads.ca/#business-markham",
-        "name": "ASADS Home Inspection Markham",
-        "url": "https://asads.ca/services/home-inspection-markham.html",
-        "telephone": "+1-647-801-9311",
-        "priceRange": "$$$",
-        "image": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90",
+        "@type": "LocalBusiness",
+        "@id": "https://asads.ca/#localbusiness",
+        "name": "ASADS Home Inspection",
+        "url": "https://asads.ca/",
+        "telephone": "+16478019311",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Serving Markham & York Region",
-          "addressLocality": "Markham",
+          "addressLocality": "Toronto",
           "addressRegion": "ON",
-          "postalCode": "L3P L3R L3S L6B L6C L6E L6G",
           "addressCountry": "CA"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "43.8563",
-          "longitude": "-79.3370"
+        "areaServed": {
+          "@type": "Place",
+          "name": "Toronto & GTA"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "ratingCount": "203",
+          "ratingCount": "210",
           "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "203"
-        },
-        "areaServed": [
-          {"@type": "City", "name": "Markham"},
-          {"@type": "City", "name": "Unionville"},
-          {"@type": "City", "name": "Cornell"},
-          {"@type": "City", "name": "Greensborough"},
-          {"@type": "City", "name": "Cachet"},
-          {"@type": "City", "name": "Thornhill"}
-        ],
-        "openingHours": "Mo-Su 06:00-23:00",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Markham Home Inspection Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Markham Luxury Home Inspection",
-                "description": "Comprehensive inspection for luxury homes in Markham with specialized testing"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Markham New Construction Inspection",
-                "description": "Phase inspections for Markham's premium new developments"
-              }
-            }
-          ]
+          "worstRating": "1"
         }
+      },
+      {
+        "@type": "Service",
+        "name": "Markham Home Inspection",
+        "serviceType": "Home Inspection",
+        "provider": {
+          "@id": "https://asads.ca/#localbusiness"
+        },
+        "url": "https://asads.ca/services/home-inspection-markham.html",
+        "description": "Certified home inspection services in Markham, Ontario specializing in luxury homes, new construction, and investment properties in York Region's premium communities."
       },
       {
         "@type": "FAQPage",
@@ -170,7 +155,6 @@
     ]
   }
   </script>
-
 <style>
 /* ========== CSS RESET & BASE ========== */
 * {
