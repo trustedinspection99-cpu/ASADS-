@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<!-- Primary SEO Tags - Richmond Hill Focus -->
-<title>🏆 Luxury Home Inspector Richmond Hill | ASADS | 4.9★ Rated</title>
-<meta name="description" content="🏆 Luxury Estate Inspector in Richmond Hill. Oak Ridges Moraine & Bayview Hill Specialists. Same-Day Reports & Thermal Imaging. Call (647) 801-9311.">
-    
+  
+  <!-- Primary SEO Tags - Richmond Hill Focus -->
+  <title>🏆 Luxury Home Inspector Richmond Hill | ASADS | 4.9★ Rated</title>
+  <meta name="description" content="🏆 Luxury Estate Inspector in Richmond Hill. Oak Ridges Moraine & Bayview Hill Specialists. Same-Day Reports & Thermal Imaging. Call (647) 801-9311.">
+  
   <!-- Local SEO -->
   <meta name="geo.region" content="CA-ON" />
   <meta name="geo.placename" content="Richmond Hill, York Region, Ontario" />
@@ -22,6 +23,17 @@
   <meta property="og:url" content="https://asads.ca/services/home-inspection-richmond-hill.html"/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"/>
   <meta property="og:site_name" content="ASADS Luxury Home Inspection Richmond Hill"/>
+  <meta property="og:locale" content="en_CA"/>
+  
+  <!-- Twitter / X Card - FIX FOR AHREFS ERROR -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@ASADS_Inspection"/>
+  <meta name="twitter:creator" content="@ASADS_Inspection"/>
+  <meta name="twitter:title" content="Richmond Hill Luxury Home Inspection | Oak Ridges Moraine & Estate Property Experts"/>
+  <meta name="twitter:description" content="York Region's premier luxury home inspection service specializing in Oak Ridges Moraine properties, Lake Wilcox estates, and Richmond Hill's exclusive communities. 24/7 inspections available."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"/>
+  <meta name="twitter:image:alt" content="ASADS Luxury Home Inspection Richmond Hill - Luxury Estate Inspector for Oak Ridges Moraine & Bayview Hill"/>
+  <meta name="twitter:url" content="https://asads.ca/services/home-inspection-richmond-hill.html"/>
   
   <!-- Canonical -->
   <link rel="canonical" href="https://asads.ca/services/home-inspection-richmond-hill.html"/>
@@ -31,70 +43,44 @@
   <!-- Preload Critical Assets -->
   <link rel="preload" href="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c" as="image"/>
   
-  <!-- Structured Data for Enhanced Search Results -->
+  <!-- Structured Data for Enhanced Search Results - UPDATED -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "HomeAndConstructionBusiness",
-        "@id": "https://asads.ca/#business-richmondhill",
-        "name": "ASADS Luxury Home Inspection Richmond Hill",
-        "url": "https://asads.ca/services/home-inspection-richmond-hill.html",
-        "telephone": "+1-647-801-9311",
-        "priceRange": "$$$",
-        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+        "@type": "LocalBusiness",
+        "@id": "https://asads.ca/#localbusiness",
+        "name": "ASADS Home Inspection",
+        "url": "https://asads.ca/",
+        "telephone": "+16478019311",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Serving Richmond Hill & York Region",
-          "addressLocality": "Richmond Hill",
+          "addressLocality": "Toronto",
           "addressRegion": "ON",
-          "postalCode": "L4B L4C L4E L4S L4B L4C",
           "addressCountry": "CA"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "43.8828",
-          "longitude": "-79.4403"
+        "areaServed": {
+          "@type": "Place",
+          "name": "Toronto & GTA"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "ratingCount": "185",
+          "ratingCount": "210",
           "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "185"
-        },
-        "areaServed": [
-          {"@type": "City", "name": "Richmond Hill"},
-          {"@type": "City", "name": "Oak Ridges"},
-          {"@type": "City", "name": "Lake Wilcox"},
-          {"@type": "City", "name": "Bayview Hill"},
-          {"@type": "City", "name": "Jefferson"}
-        ],
-        "openingHours": "Mo-Su 06:00-22:00",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Richmond Hill Luxury Home Inspection Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Oak Ridges Moraine Estate Inspection",
-                "description": "Specialized inspection for protected Oak Ridges Moraine properties"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Lake Wilcox Waterfront Estate Inspection",
-                "description": "Expert inspection for Richmond Hill's exclusive Lake Wilcox properties"
-              }
-            }
-          ]
+          "worstRating": "1"
         }
+      },
+      {
+        "@type": "Service",
+        "name": "Richmond Hill Luxury Home Inspection",
+        "serviceType": "Home Inspection",
+        "provider": {
+          "@id": "https://asads.ca/#localbusiness"
+        },
+        "url": "https://asads.ca/services/home-inspection-richmond-hill.html",
+        "description": "Luxury home inspection services in Richmond Hill, Ontario specializing in Oak Ridges Moraine properties, Lake Wilcox waterfront estates, and exclusive communities in York Region."
       },
       {
         "@type": "FAQPage",
