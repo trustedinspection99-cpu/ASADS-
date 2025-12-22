@@ -4,10 +4,11 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
- <!-- Primary SEO Tags - Optimized for Rank 1 -->
-<title>🏆 #1 Hamilton Home Inspector | ASADS | 4.9★ (200+ Reviews)</title>
-<meta name="description" content="🏆 TOP-RATED Hamilton Home Inspector. 4.9/5 Rated with 200+ Reviews. Thermal Imaging, Moisture Testing & 24/7 Service. Same-Day Reports. Call (647) 801-9311.">
-<!-- Local SEO -->
+  <!-- Primary SEO Tags - Optimized for Rank 1 -->
+  <title>🏆 #1 Hamilton Home Inspector | ASADS | 4.9★ (200+ Reviews)</title>
+  <meta name="description" content="🏆 TOP-RATED Hamilton Home Inspector. 4.9/5 Rated with 200+ Reviews. Thermal Imaging, Moisture Testing & 24/7 Service. Same-Day Reports. Call (647) 801-9311.">
+  
+  <!-- Local SEO -->
   <meta name="geo.region" content="CA-ON" />
   <meta name="geo.placename" content="Hamilton, Ontario" />
   <meta name="geo.position" content="43.2557;-79.8711" />
@@ -22,6 +23,17 @@
   <meta property="og:url" content="https://asads.ca/services/home-inspection-hamilton.html"/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1580587771525-78b9dba3b914"/>
   <meta property="og:site_name" content="ASADS Home Inspection Hamilton"/>
+  <meta property="og:locale" content="en_CA"/>
+  
+  <!-- Twitter / X Card - FIX FOR AHREFS ERROR -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@ASADS_Inspection"/>
+  <meta name="twitter:creator" content="@ASADS_Inspection"/>
+  <meta name="twitter:title" content="#1 Home Inspector Hamilton | Same-Day Thermal Imaging Reports"/>
+  <meta name="twitter:description" content="Hamilton's highest-rated home inspector. Thermal imaging, moisture testing, heritage home specialists. 24/7 emergency inspections available."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1580587771525-78b9dba3b914"/>
+  <meta name="twitter:image:alt" content="ASADS Home Inspection Hamilton - Certified Home Inspector"/>
+  <meta name="twitter:url" content="https://asads.ca/services/home-inspection-hamilton.html"/>
   
   <!-- Canonical -->
   <link rel="canonical" href="https://asads.ca/services/home-inspection-hamilton.html"/>
@@ -31,72 +43,44 @@
   <!-- Preload Critical Assets -->
   <link rel="preload" href="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" as="image"/>
   
-  <!-- Structured Data for Enhanced Search Results -->
+  <!-- Structured Data for Enhanced Search Results - FIXED -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "HomeAndConstructionBusiness",
-        "@id": "https://asads.ca/#business",
-        "name": "ASADS Home Inspection Hamilton",
-        "url": "https://asads.ca/services/home-inspection-hamilton.html",
-        "telephone": "+1-647-801-9311",
-        "priceRange": "$$",
-        "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+        "@type": "LocalBusiness",
+        "@id": "https://asads.ca/#localbusiness",
+        "name": "ASADS Home Inspection",
+        "url": "https://asads.ca/",
+        "telephone": "+16478019311",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Serving Hamilton & Niagara Region",
-          "addressLocality": "Hamilton",
+          "addressLocality": "Toronto",
           "addressRegion": "ON",
-          "postalCode": "L8E L8G L8H L8J L8K L8L L8M L8N L8P L8R L8S L8T L8V L8W",
           "addressCountry": "CA"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "43.2557",
-          "longitude": "-79.8711"
+        "areaServed": {
+          "@type": "Place",
+          "name": "Hamilton & Niagara Region"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
           "ratingCount": "214",
           "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "214"
-        },
-        "areaServed": [
-          {"@type": "City", "name": "Hamilton"},
-          {"@type": "City", "name": "Hamilton Mountain"},
-          {"@type": "City", "name": "Dundas"},
-          {"@type": "City", "name": "Ancaster"},
-          {"@type": "City", "name": "Stoney Creek"},
-          {"@type": "City", "name": "Burlington"},
-          {"@type": "City", "name": "Waterdown"}
-        ],
-        "openingHours": "Mo-Su 00:00-23:59",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Home Inspection Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Hamilton Pre-Purchase Home Inspection",
-                "description": "Comprehensive home inspection for buyers in Hamilton with thermal imaging"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Hamilton Pre-Listing Inspection",
-                "description": "Seller's inspection to identify issues before listing in Hamilton"
-              }
-            }
-          ]
+          "worstRating": "1"
         }
+      },
+      {
+        "@type": "Service",
+        "name": "Hamilton Home Inspection",
+        "serviceType": "Home Inspection",
+        "provider": {
+          "@id": "https://asads.ca/#localbusiness"
+        },
+        "url": "https://asads.ca/services/home-inspection-hamilton.html",
+        "description": "Certified home inspection services in Hamilton, Ontario with thermal imaging, sewer scope, and same-day reports for urgent real estate transactions."
       },
       {
         "@type": "FAQPage",
