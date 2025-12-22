@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
   <!-- Primary SEO Tags - North York Focus -->
-<title>North York Home Inspector | High-Rise & Ravine Home Specialist</title>
-<meta name="description" content="North York's local urban home inspection expert. Specializing in high-rise condos & ravine property inspections. Free Quote: (647) 801-9311."/>
+  <title>North York Home Inspector | High-Rise & Ravine Home Specialist</title>
+  <meta name="description" content="North York's local urban home inspection expert. Specializing in high-rise condos & ravine property inspections. Free Quote: (647) 801-9311."/>
+  
   <!-- Local SEO -->
   <meta name="geo.region" content="CA-ON" />
   <meta name="geo.placename" content="North York, Toronto, Ontario" />
@@ -22,6 +23,17 @@
   <meta property="og:url" content="https://asads.ca/services/home-inspection-north-york.html"/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1512917774080-9991f1c4c750"/>
   <meta property="og:site_name" content="ASADS Home Inspection North York"/>
+  <meta property="og:locale" content="en_CA"/>
+  
+  <!-- Twitter / X Card - FIX FOR AHREFS ERROR -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@ASADS_Inspection"/>
+  <meta name="twitter:creator" content="@ASADS_Inspection"/>
+  <meta name="twitter:title" content="North York Urban Home Inspection | High-Rise Condo & Ravine Property Experts"/>
+  <meta name="twitter:description" content="Toronto's urban property specialists serving North York - from Yonge-Sheppard condos to York Mills ravine homes. Same-day inspections available."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1512917774080-9991f1c4c750"/>
+  <meta name="twitter:image:alt" content="ASADS Home Inspection North York - Urban Home Inspector for High-Rise & Ravine Properties"/>
+  <meta name="twitter:url" content="https://asads.ca/services/home-inspection-north-york.html"/>
   
   <!-- Canonical -->
   <link rel="canonical" href="https://asads.ca/services/home-inspection-north-york.html"/>
@@ -31,70 +43,44 @@
   <!-- Preload Critical Assets -->
   <link rel="preload" href="https://images.unsplash.com/photo-1512917774080-9991f1c4c750" as="image"/>
   
-  <!-- Structured Data for Enhanced Search Results -->
+  <!-- Structured Data for Enhanced Search Results - FIXED -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "HomeAndConstructionBusiness",
-        "@id": "https://asads.ca/#business-northyork",
-        "name": "ASADS Home Inspection North York",
-        "url": "https://asads.ca/services/home-inspection-north-york.html",
-        "telephone": "+1-647-801-9311",
-        "priceRange": "$$",
-        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "@type": "LocalBusiness",
+        "@id": "https://asads.ca/#localbusiness",
+        "name": "ASADS Home Inspection",
+        "url": "https://asads.ca/",
+        "telephone": "+16478019311",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Serving North York & Toronto",
-          "addressLocality": "North York",
+          "addressLocality": "Toronto",
           "addressRegion": "ON",
-          "postalCode": "M2M M3J M5M M6A M6B M6C M9M",
           "addressCountry": "CA"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "43.7615",
-          "longitude": "-79.4111"
+        "areaServed": {
+          "@type": "Place",
+          "name": "Toronto & GTA"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
           "ratingCount": "210",
           "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "210"
-        },
-        "areaServed": [
-          {"@type": "City", "name": "North York"},
-          {"@type": "City", "name": "Willowdale"},
-          {"@type": "City", "name": "Don Mills"},
-          {"@type": "City", "name": "York Mills"},
-          {"@type": "City", "name": "Downsview"}
-        ],
-        "openingHours": "Mo-Su 06:00-22:00",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "North York Urban Home Inspection Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "North York High-Rise Condo Inspection",
-                "description": "Specialized inspection for Toronto's dense high-rise condominium buildings"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "North York Ravine Property Inspection",
-                "description": "Expert inspection for homes on ravine lots with slope stability concerns"
-              }
-            }
-          ]
+          "worstRating": "1"
         }
+      },
+      {
+        "@type": "Service",
+        "name": "North York Home Inspection",
+        "serviceType": "Home Inspection",
+        "provider": {
+          "@id": "https://asads.ca/#localbusiness"
+        },
+        "url": "https://asads.ca/services/home-inspection-north-york.html",
+        "description": "Certified home inspection services in North York, Toronto specializing in high-rise condos, ravine properties, and urban home inspections."
       },
       {
         "@type": "FAQPage",
