@@ -4,15 +4,17 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
-<!-- Primary SEO Tags -->
-<title>🏆 Best Burlington Home Inspector | ASADS | 4.9★ Certified</title>
-<meta name="description" content="🏆 Top-Rated Burlington Home Inspector. Experts in Waterfront & Luxury Homes. Thermal Imaging & Same-Day Reports. Call (647) 801-9311.">
+  <!-- Primary SEO Tags -->
+  <title>🏆 Best Burlington Home Inspector | ASADS | 4.9★ Certified</title>
+  <meta name="description" content="🏆 Top-Rated Burlington Home Inspector. Experts in Waterfront & Luxury Homes. Thermal Imaging & Same-Day Reports. Call (647) 801-9311.">
+  
   <!-- Local Business SEO -->
   <meta name="geo.region" content="CA-ON" />
   <meta name="geo.placename" content="Burlington, Ontario" />
   <meta name="geo.position" content="43.3255;-79.7990" />
   <meta name="ICBM" content="43.3255, -79.7990" />
   <meta name="location" content="Burlington, Ontario" />
+  <meta name="author" content="ASADS Certified Home Inspectors Burlington-Toronto" />
   
   <!-- Open Graph -->
   <meta property="og:title" content="Home Inspection Burlington | Certified Master Inspectors | ASADS"/>
@@ -20,6 +22,18 @@
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://asads.ca/services/home-inspection-burlington.html"/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1513584684374-8bab748fbf90"/>
+  <meta property="og:site_name" content="ASADS Home Inspection Burlington"/>
+  <meta property="og:locale" content="en_CA"/>
+  
+  <!-- Twitter / X Card - FIX FOR AHREFS ERROR -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@ASADS_Inspection"/>
+  <meta name="twitter:creator" content="@ASADS_Inspection"/>
+  <meta name="twitter:title" content="Home Inspection Burlington | Certified Master Inspectors | ASADS"/>
+  <meta name="twitter:description" content="Professional home inspections with thermal imaging technology in Burlington. Serving Aldershot, Tyandaga, Brant Hills, and all Halton Region."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1513584684374-8bab748fbf90"/>
+  <meta name="twitter:image:alt" content="ASADS Home Inspection Burlington - Certified Home Inspector for Waterfront & Luxury Homes"/>
+  <meta name="twitter:url" content="https://asads.ca/services/home-inspection-burlington.html"/>
   
   <!-- Canonical -->
   <link rel="canonical" href="https://asads.ca/services/home-inspection-burlington.html"/>
@@ -30,50 +44,116 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Structured Data -->
+  <!-- Structured Data - UPDATED -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "name": "ASADS Home Inspection Burlington",
-    "url": "https://asads.ca/services/home-inspection-burlington.html",
-    "telephone": "+1-647-801-9311",
-    "priceRange": "$$",
-    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Serving Burlington & Halton Region",
-      "addressLocality": "Burlington",
-      "addressRegion": "ON",
-      "postalCode": "L7L L7M L7N L7P L7R L7S L7T",
-      "addressCountry": "CA"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "43.3255",
-      "longitude": "-79.7990"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "ratingCount": "91",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "areaServed": ["Burlington", "Aldershot", "Tyandaga", "Brant Hills", "Headon Forest", "Millcroft", "Orchard", "Shoreacres"],
-    "openingHours": "Mo-Su 07:00-21:00",
-    "serviceArea": {
-      "@type": "Place",
-      "name": "Burlington and Halton Region"
-    },
-    "makesOffer": [{
-      "@type": "Offer",
-      "itemOffered": {
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://asads.ca/#localbusiness",
+        "name": "ASADS Home Inspection",
+        "url": "https://asads.ca/",
+        "telephone": "+16478019311",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Toronto",
+          "addressRegion": "ON",
+          "addressCountry": "CA"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Toronto & GTA"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "210",
+          "bestRating": "5",
+          "worstRating": "1"
+        }
+      },
+      {
         "@type": "Service",
         "name": "Burlington Home Inspection",
-        "description": "Comprehensive home inspection with thermal imaging in Burlington, specializing in waterfront properties"
+        "serviceType": "Home Inspection",
+        "provider": {
+          "@id": "https://asads.ca/#localbusiness"
+        },
+        "url": "https://asads.ca/services/home-inspection-burlington.html",
+        "description": "Certified home inspection services in Burlington, Ontario specializing in waterfront properties, luxury homes, and heritage home inspections in Halton Region."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://asads.ca/#faqpage-burlington",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do you inspect near the Burlington waterfront?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We specifically check for grading issues, foundation moisture, sump pump functionality, and window wells in lakeside neighborhoods. Waterfront properties require special attention to erosion control and humidity management."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you inspect townhomes & condos in Burlington?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. We thoroughly inspect condo common elements where accessible and conduct comprehensive inspections of suite systems. We review condo documents to identify important information about reserve funds and maintenance obligations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does a home inspection cost in Burlington?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Burlington inspections typically range from $450 to $750 depending on property size and age. Waterfront properties and large estate homes in Millcroft may be at the higher end. We provide free quotes with no obligation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get a same-day report?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Most Burlington inspections include a same-day digital report with labelled photos and prioritized recommendations. You'll typically receive your comprehensive PDF report within 4-6 hours of inspection completion."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you check for asbestos in older Burlington homes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "While we don't conduct laboratory testing, we identify materials that may contain asbestos (like vermiculite insulation, vinyl tiles, and pipe insulation) in homes built before 1990, particularly in Aldershot and Roseland areas."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://asads.ca/#breadcrumbs-burlington",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://asads.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://asads.ca/#services"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Burlington Home Inspection",
+            "item": "https://asads.ca/services/home-inspection-burlington.html"
+          }
+        ]
       }
-    }]
+    ]
   }
   </script>
 
