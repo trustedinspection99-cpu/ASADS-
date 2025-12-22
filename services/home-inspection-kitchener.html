@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
 
   <!-- Primary SEO Tags - Kitchener Focus -->
-<title>🏆 #1 Kitchener Home Inspector | ASADS | 4.9★ Rated</title>
-<meta name="description" content="🏆 Kitchener's Top-Rated Home Inspector. Specialist in Tech-Smart Homes & Century Properties. Same-Day Digital Reports. Call (647) 801-9311.">
+  <title>🏆 #1 Kitchener Home Inspector | ASADS | 4.9★ Rated</title>
+  <meta name="description" content="🏆 Kitchener's Top-Rated Home Inspector. Specialist in Tech-Smart Homes & Century Properties. Same-Day Digital Reports. Call (647) 801-9311.">
+  
   <!-- Local SEO -->
   <meta name="geo.region" content="CA-ON" />
   <meta name="geo.placename" content="Kitchener, Waterloo Region, Ontario" />
@@ -22,6 +23,17 @@
   <meta property="og:url" content="https://asads.ca/services/home-inspection-kitchener.html"/>
   <meta property="og:image" content="https://images.unsplash.com/photo-1560518883-ce09059eeffa"/>
   <meta property="og:site_name" content="ASADS Home Inspection Kitchener"/>
+  <meta property="og:locale" content="en_CA"/>
+  
+  <!-- Twitter / X Card - FIX FOR AHREFS ERROR -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@ASADS_Inspection"/>
+  <meta name="twitter:creator" content="@ASADS_Inspection"/>
+  <meta name="twitter:title" content="#1 Home Inspector Kitchener | Tech Hub & New Construction Specialist"/>
+  <meta name="twitter:description" content="Kitchener's highest-rated home inspector specializing in tech homes, new construction, and heritage properties. 24/7 inspections available."/>
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1560518883-ce09059eeffa"/>
+  <meta name="twitter:image:alt" content="ASADS Home Inspection Kitchener - Certified Home Inspector for Tech Homes & New Construction"/>
+  <meta name="twitter:url" content="https://asads.ca/services/home-inspection-kitchener.html"/>
   
   <!-- Canonical -->
   <link rel="canonical" href="https://asads.ca/services/home-inspection-kitchener.html"/>
@@ -31,70 +43,44 @@
   <!-- Preload Critical Assets -->
   <link rel="preload" href="https://images.unsplash.com/photo-1560518883-ce09059eeffa" as="image"/>
   
-  <!-- Structured Data for Enhanced Search Results -->
+  <!-- Structured Data for Enhanced Search Results - UPDATED -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "HomeAndConstructionBusiness",
-        "@id": "https://asads.ca/#business-kitchener",
-        "name": "ASADS Home Inspection Kitchener",
-        "url": "https://asads.ca/services/home-inspection-kitchener.html",
-        "telephone": "+1-647-801-9311",
-        "priceRange": "$$",
-        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa",
+        "@type": "LocalBusiness",
+        "@id": "https://asads.ca/#localbusiness",
+        "name": "ASADS Home Inspection",
+        "url": "https://asads.ca/",
+        "telephone": "+16478019311",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Serving Kitchener & Waterloo Region",
-          "addressLocality": "Kitchener",
+          "addressLocality": "Toronto",
           "addressRegion": "ON",
-          "postalCode": "N2A N2B N2C N2E N2G N2H N2K N2M N2N N2P N2R",
           "addressCountry": "CA"
         },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "43.4516",
-          "longitude": "-80.4925"
+        "areaServed": {
+          "@type": "Place",
+          "name": "Toronto & GTA"
         },
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "ratingCount": "187",
+          "ratingCount": "210",
           "bestRating": "5",
-          "worstRating": "1",
-          "reviewCount": "187"
-        },
-        "areaServed": [
-          {"@type": "City", "name": "Kitchener"},
-          {"@type": "City", "name": "Waterloo"},
-          {"@type": "City", "name": "Cambridge"},
-          {"@type": "City", "name": "Breslau"},
-          {"@type": "City", "name": "New Hamburg"}
-        ],
-        "openingHours": "Mo-Su 06:00-22:00",
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Kitchener Home Inspection Services",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Kitchener Pre-Purchase Home Inspection",
-                "description": "Comprehensive tech-focused home inspection for Kitchener buyers with thermal imaging"
-              }
-            },
-            {
-              "@type": "Offer",
-              "itemOffered": {
-                "@type": "Service",
-                "name": "Kitchener New Construction Inspection",
-                "description": "Specialized inspection for Kitchener's booming new construction and tech homes"
-              }
-            }
-          ]
+          "worstRating": "1"
         }
+      },
+      {
+        "@type": "Service",
+        "name": "Kitchener Home Inspection",
+        "serviceType": "Home Inspection",
+        "provider": {
+          "@id": "https://asads.ca/#localbusiness"
+        },
+        "url": "https://asads.ca/services/home-inspection-kitchener.html",
+        "description": "Certified home inspection services in Kitchener, Ontario specializing in tech-smart homes, new construction, and heritage properties in the Waterloo Region tech hub."
       },
       {
         "@type": "FAQPage",
