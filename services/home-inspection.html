@@ -25,14 +25,36 @@
 <!-- Structured data: Service + FAQ + Breadcrumb -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"Service",
-  "name":"Home Inspection (Residential)",
-  "serviceType":"Home Inspection",
-  "provider":{"@type":"LocalBusiness","name":"ASADS"},
-  "areaServed":"Toronto & GTA",
-  "telephone":"+16478019311",
-  "url":"https://asads.ca/services/home-inspection.html"
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://asads.ca/#localbusiness",
+      "name": "ASADS Home Inspection",
+      "url": "https://asads.ca/",
+      "telephone": "+16478019311",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Toronto & GTA"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Home Inspection (Residential)",
+      "serviceType": "Home Inspection",
+      "provider": {
+        "@id": "https://asads.ca/#localbusiness"
+      },
+      "url": "https://asads.ca/services/home-inspection.html",
+      "description": "Certified home inspectors serving Toronto & the GTA. Detailed pre-purchase & pre-listing scans with thermal imaging."
+    }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -40,9 +62,24 @@
   "@context":"https://schema.org",
   "@type":"BreadcrumbList",
   "itemListElement":[
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://asads.ca/"},
-    {"@type":"ListItem","position":2,"name":"Services","item":"https://asads.ca/#services"},
-    {"@type":"ListItem","position":3,"name":"Home Inspection","item":"https://asads.ca/services/home-inspection.html"}
+    {
+      "@type":"ListItem",
+      "position":1,
+      "name":"Home",
+      "item":"https://asads.ca/"
+    },
+    {
+      "@type":"ListItem",
+      "position":2,
+      "name":"Services",
+      "item":"https://asads.ca/#services"
+    },
+    {
+      "@type":"ListItem",
+      "position":3,
+      "name":"Home Inspection",
+      "item":"https://asads.ca/services/home-inspection.html"
+    }
   ]
 }
 </script>
