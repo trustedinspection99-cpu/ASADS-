@@ -11,13 +11,65 @@
 <meta name="twitter:description" content="Seasonal contracts or per-visit."/><meta name="twitter:image" content="https://asads.ca/logo.png"/>
 <link rel="icon" href="https://asads.ca/favicon.ico"/><link rel="stylesheet" href="/assets/site.css"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service","name":"Snow Removal","serviceType":"Snow Removal","provider":{"@type":"LocalBusiness","name":"ASADS"},"areaServed":"Toronto GTA","telephone":"+16478019311","url":"https://asads.ca/services/snow-removal.html"}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://asads.ca/#localbusiness",
+      "name": "ASADS Home Inspection",
+      "url": "https://asads.ca/",
+      "telephone": "+16478019311",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Toronto & GTA"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Snow Removal Services",
+      "serviceType": "Snow Removal",
+      "provider": {
+        "@id": "https://asads.ca/#localbusiness"
+      },
+      "url": "https://asads.ca/services/snow-removal.html",
+      "description": "Professional snow removal services for residential and commercial properties in Toronto and GTA, ensuring safe and accessible properties during winter months."
+    }
+  ]
+}
 </script>
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
-{"@type":"ListItem","position":1,"name":"Home","item":"https://asads.ca/"},
-{"@type":"ListItem","position":2,"name":"Services","item":"https://asads.ca/#services"},
-{"@type":"ListItem","position":3,"name":"Snow Removal","item":"https://asads.ca/services/snow-removal.html"}]}
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://asads.ca/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://asads.ca/#services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Snow Removal",
+      "item": "https://asads.ca/services/snow-removal.html"
+    }
+  ]
+}
 </script>
 </head><body>
 <header class="site-header"><div class="container navbar">
