@@ -11,13 +11,65 @@
 <meta name="twitter:description" content="Leaks fixed. Fixtures installed. Worry less."/><meta name="twitter:image" content="https://asads.ca/logo.png"/>
 <link rel="icon" href="https://asads.ca/favicon.ico"/><link rel="stylesheet" href="/assets/site.css"/>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Service","name":"Plumbing Services","serviceType":"Plumbing","provider":{"@type":"LocalBusiness","name":"ASADS"},"areaServed":"Toronto GTA","telephone":"+16478019311","url":"https://asads.ca/services/plumbing.html"}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://asads.ca/#localbusiness",
+      "name": "ASADS Home Inspection",
+      "url": "https://asads.ca/",
+      "telephone": "+16478019311",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Toronto & GTA"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Plumbing Services",
+      "serviceType": "Plumbing",
+      "provider": {
+        "@id": "https://asads.ca/#localbusiness"
+      },
+      "url": "https://asads.ca/services/plumbing.html",
+      "description": "Professional plumbing services including repairs, installations, and maintenance for residential and commercial properties in Toronto and GTA."
+    }
+  ]
+}
 </script>
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
-{"@type":"ListItem","position":1,"name":"Home","item":"https://asads.ca/"},
-{"@type":"ListItem","position":2,"name":"Services","item":"https://asads.ca/#services"},
-{"@type":"ListItem","position":3,"name":"Plumbing Services","item":"https://asads.ca/services/plumbing.html"}]}
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://asads.ca/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://asads.ca/#services"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Plumbing Services",
+      "item": "https://asads.ca/services/plumbing.html"
+    }
+  ]
+}
 </script>
 </head><body>
 <header class="site-header"><div class="container navbar">
