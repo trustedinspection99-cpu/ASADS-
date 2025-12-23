@@ -244,12 +244,7 @@
   </url>
   
   <!-- Additional Pages -->
-  <url>
-    <loc>https://asads.ca/thank-you.html</loc>
-    <lastmod>2023-12-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+
   <url>
     <loc>https://asads.ca/privacy-policy.html</loc>
     <lastmod>2023-12-24</lastmod>
