@@ -8,6 +8,149 @@
   <title>Commercial Building Inspection Toronto | Phase 1 ESA, PCA & Due Diligence | ASADS</title>
   <meta name="description" content="Professional Commercial Building Inspection Toronto: Phase 1 Environmental Site Assessment, Property Condition Assessment (PCA), Due Diligence, Building Code Compliance, ADA Accessibility, LEED Certification, MEP Inspection Services for Office, Retail & Industrial Properties.">
   
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://asads.ca/#business",
+      "name": "ASADS Home Inspection",
+      "image": "https://asads.ca/logo.png",
+      "telephone": "+16478019311",
+      "email": "commercial@asads.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "43.6532",
+        "longitude": "-79.3832"
+      },
+      "url": "https://asads.ca",
+      "priceRange": "$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "21:00"
+        }
+      ],
+      "sameAs": [],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Inspection Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial Building Inspection"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Phase 1 Environmental Site Assessment"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Property Condition Assessment"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://asads.ca/services/commercial-inspection.html#service",
+      "name": "Commercial Building Inspection Toronto",
+      "serviceType": "Commercial Property Inspection",
+      "provider": {
+        "@id": "https://asads.ca/#business"
+      },
+      "description": "Professional commercial building inspection services including Phase 1 Environmental Site Assessment (ESA), Property Condition Assessment (PCA), Due Diligence Inspection, Building Code Compliance, ADA Accessibility, LEED Certification, and MEP Inspection Services for Toronto commercial properties.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Toronto",
+        "sameAs": "https://en.wikipedia.org/wiki/Toronto"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Commercial Inspection Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Small Office/Retail Inspection",
+            "price": "1200",
+            "priceCurrency": "CAD",
+            "eligibleRegion": {
+              "@type": "City",
+              "name": "Toronto"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Medium Commercial Inspection",
+            "price": "2500",
+            "priceCurrency": "CAD",
+            "eligibleRegion": {
+              "@type": "City",
+              "name": "Toronto"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Large Commercial Inspection",
+            "price": "5000",
+            "priceCurrency": "CAD",
+            "eligibleRegion": {
+              "@type": "City",
+              "name": "Toronto"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://asads.ca/services/commercial-inspection.html#webpage",
+      "url": "https://asads.ca/services/commercial-inspection.html",
+      "name": "Commercial Building Inspection Toronto | Phase 1 ESA, PCA & Due Diligence | ASADS",
+      "description": "Professional Commercial Building Inspection Toronto: Phase 1 Environmental Site Assessment, Property Condition Assessment (PCA), Due Diligence, Building Code Compliance, ADA Accessibility, LEED Certification, MEP Inspection Services for Office, Retail & Industrial Properties.",
+      "isPartOf": {
+        "@id": "https://asads.ca/#website"
+      },
+      "about": {
+        "@id": "https://asads.ca/services/commercial-inspection.html#service"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://asads.ca/#website",
+      "url": "https://asads.ca",
+      "name": "ASADS Home Inspection",
+      "description": "Professional Home and Commercial Inspection Services in Toronto",
+      "publisher": {
+        "@id": "https://asads.ca/#business"
+      }
+    }
+  ]
+}
+</script>
+  
   <style>
     :root {
       --primary: #2c3e50;
@@ -80,11 +223,38 @@
     .footer { background: var(--primary-dark); color: var(--white); padding: 80px 0 40px; }
     .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 50px; margin-bottom: 50px; }
     
+    /* Floating CTA Button */
+    .floating-cta {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #FF0000;
+      color: white;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 14px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+      z-index: 1001;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .floating-cta:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 25px rgba(255, 0, 0, 0.6);
+    }
+    
     @media (max-width: 768px) {
       .hero h1 { font-size: 36px; }
       .section { padding: 80px 0; }
       .section-title { font-size: 28px; }
       .content-card { padding: 30px 20px; }
+      .process-step { padding-left: 60px; }
     }
   </style>
 </head>
@@ -418,22 +588,21 @@
         </div>
         
         <div>
-          <h4 style="color: white; margin-bottom: 20px;">Commercial Services</h4>
+          <h4 style="color: white; margin-bottom: 20px;">Specialized Service Pages</h4>
           <ul style="list-style: none;">
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">Phase 1 Environmental Site Assessment</a></li>
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">Property Condition Assessment (PCA)</a></li>
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">Building Code Compliance Inspection</a></li>
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">ADA Accessibility & AODA Compliance</a></li>
+            <li><a href="/services/wett-inspection-toronto.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">WETT Inspection Toronto</a></li>
+            <li><a href="/services/mold-testing-toronto.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">Mold Testing Toronto</a></li>
+            <li><a href="/services/sewer-scope-inspection.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">Sewer Scope Inspection</a></li>
+            <li><a href="/services/radon-testing-toronto.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">Radon Testing Toronto</a></li>
           </ul>
         </div>
         
         <div>
-          <h4 style="color: white; margin-bottom: 20px;">Specialized Inspections</h4>
+          <h4 style="color: white; margin-bottom: 20px;">Additional Service Pages</h4>
           <ul style="list-style: none;">
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">Mechanical Systems Inspection</a></li>
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">Electrical Systems Assessment</a></li>
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">Plumbing Systems Evaluation</a></li>
-            <li><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">LEED Certification Inspection</a></li>
+            <li><a href="/services/pre-listing-inspection.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">Pre-Listing Inspection</a></li>
+            <li><a href="/services/annual-maintenance-inspection.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">Annual Maintenance Inspection</a></li>
+            <li><a href="/services/commercial-inspection.html" style="color: rgba(255,255,255,0.8); text-decoration: none;">Commercial Inspection</a></li>
           </ul>
         </div>
       </div>
@@ -443,5 +612,7 @@
       </div>
     </div>
   </footer>
+
+  <a href="tel:+16478019311" class="floating-cta">CALL NOW</a>
 </body>
 </html>
