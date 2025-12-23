@@ -8,6 +8,142 @@
   <title>Asbestos Testing Toronto | WSIB Certified Inspection & Removal | 647-801-9311</title>
   <meta name="description" content="WSIB certified asbestos testing Toronto. Professional asbestos inspection & removal for homes built before 1990. Ontario Regulation 278/05 compliant. Get free quote.">
   
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://asads.ca/#business",
+      "name": "ASADS Home Inspection",
+      "image": "https://asads.ca/logo.png",
+      "telephone": "+16478019311",
+      "email": "info@asads.ca",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "43.6532",
+        "longitude": "-79.3832"
+      },
+      "url": "https://asads.ca",
+      "priceRange": "$$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "21:00"
+        }
+      ],
+      "sameAs": [],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Asbestos Testing Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Asbestos Testing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Asbestos Removal"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://asads.ca/services/asbestos-testing.html#service",
+      "name": "Asbestos Testing Toronto",
+      "serviceType": "Asbestos Testing and Removal",
+      "provider": {
+        "@id": "https://asads.ca/#business"
+      },
+      "description": "WSIB certified asbestos testing and removal services in Toronto. Professional asbestos inspection for homes built before 1990. Ontario Regulation 278/05 compliant asbestos testing, inspection, and removal.",
+      "areaServed": {
+        "@type": "City",
+        "name": "Toronto",
+        "sameAs": "https://en.wikipedia.org/wiki/Toronto"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Asbestos Testing Packages",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Basic Asbestos Testing",
+            "price": "299",
+            "priceCurrency": "CAD",
+            "eligibleRegion": {
+              "@type": "City",
+              "name": "Toronto"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Full Home Asbestos Inspection",
+            "price": "599",
+            "priceCurrency": "CAD",
+            "eligibleRegion": {
+              "@type": "City",
+              "name": "Toronto"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Complete Asbestos Removal",
+            "price": "2999",
+            "priceCurrency": "CAD",
+            "eligibleRegion": {
+              "@type": "City",
+              "name": "Toronto"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://asads.ca/services/asbestos-testing.html#webpage",
+      "url": "https://asads.ca/services/asbestos-testing.html",
+      "name": "Asbestos Testing Toronto | WSIB Certified Inspection & Removal | 647-801-9311",
+      "description": "WSIB certified asbestos testing Toronto. Professional asbestos inspection & removal for homes built before 1990. Ontario Regulation 278/05 compliant. Get free quote.",
+      "isPartOf": {
+        "@id": "https://asads.ca/#website"
+      },
+      "about": {
+        "@id": "https://asads.ca/services/asbestos-testing.html#service"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1920"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://asads.ca/#website",
+      "url": "https://asads.ca",
+      "name": "ASADS Home Inspection",
+      "description": "Professional Asbestos Testing and Removal Services in Toronto",
+      "publisher": {
+        "@id": "https://asads.ca/#business"
+      }
+    }
+  ]
+}
+</script>
+  
   <style>
     /* ===== MODERN, CLEAN CSS ===== */
     :root {
@@ -713,6 +849,33 @@
       cursor: pointer;
     }
     
+    /* ===== FLOATING CALL BUTTON ===== */
+    .floating-cta {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #FF0000;
+      color: white;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 14px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+      z-index: 1001;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .floating-cta:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 25px rgba(255, 0, 0, 0.6);
+    }
+    
     /* ===== FOOTER ===== */
     .footer {
       background: var(--primary-dark);
@@ -863,6 +1026,14 @@
       
       .timeline-item {
         padding-left: 60px;
+      }
+      
+      .floating-cta {
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
       }
     }
     
@@ -1349,6 +1520,9 @@
     </div>
   </footer>
 
+  <!-- Floating Call Button -->
+  <a href="tel:+16478019311" class="floating-cta" aria-label="Call Now">CALL NOW</a>
+
   <script>
     // Mobile Navigation
     const mobileToggle = document.querySelector('.mobile-toggle');
@@ -1429,4 +1603,4 @@
     });
   </script>
 </body>
-                                     </html>
+</html>
