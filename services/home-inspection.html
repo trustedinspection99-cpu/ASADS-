@@ -27,61 +27,97 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
-      "@id": "https://asads.ca/#localbusiness",
+      "@type": "HomeInspector",
+      "@id": "https://asads.ca/#business",
       "name": "ASADS Home Inspection",
       "url": "https://asads.ca/",
-      "telephone": "+16478019311",
+      "telephone": "+1-647-801-9311",
+      "email": "info@asads.ca",
+      "image": "https://asads.ca/images/toronto-home-inspector-og.jpg",
+      "logo": "https://asads.ca/logo.png",
+      "priceRange": "$$",
+      "description": "Certified home inspection services in Toronto & GTA with same-day digital reports, thermal imaging, and mold testing.",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "E-Transfer"],
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Toronto",
         "addressRegion": "ON",
         "addressCountry": "CA"
       },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Toronto & GTA"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200",
+        "bestRating": "5"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ASADSHomeInspection",
+        "https://www.instagram.com/asads_home_inspection"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Home Inspection Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Core Inspection Services",
+            "itemListElement": [
+              {"@type": "Service", "name": "Pre-purchase Home Inspection"},
+              {"@type": "Service", "name": "Condo Inspection"},
+              {"@type": "Service", "name": "New Construction Inspection"},
+              {"@type": "Service", "name": "Tarion Warranty Inspection"},
+              {"@type": "Service", "name": "Pre-listing Inspection"},
+              {"@type": "Service", "name": "Tenant Move-In/Out Inspection"},
+              {"@type": "Service", "name": "Annual Maintenance Inspection"}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Specialized Inspections",
+            "itemListElement": [
+              {"@type": "Service", "name": "Infrared Thermal Imaging"},
+              {"@type": "Service", "name": "Mold Testing"},
+              {"@type": "Service", "name": "WETT Inspection"},
+              {"@type": "Service", "name": "Sewer Scope Inspection"},
+              {"@type": "Service", "name": "Radon Testing"},
+              {"@type": "Service", "name": "Asbestos Testing"},
+              {"@type": "Service", "name": "Lead Paint Testing"},
+              {"@type": "Service", "name": "Well Water Testing"}
+            ]
+          }
+        ]
       }
     },
     {
-      "@type": "Service",
-      "name": "Home Inspection (Residential)",
-      "serviceType": "Home Inspection",
-      "provider": {
-        "@id": "https://asads.ca/#localbusiness"
-      },
-      "url": "https://asads.ca/services/home-inspection.html",
-      "description": "Certified home inspectors serving Toronto & the GTA. Detailed pre-purchase & pre-listing scans with thermal imaging."
+      "@type": "WebPage",
+      "@id": "https://asads.ca/#webpage",
+      "url": "https://asads.ca/",
+      "name": "Certified Home Inspector Toronto | ASADS",
+      "description": "Licensed Toronto home inspector with same-day digital reports & thermal imaging. Pre-purchase, condo & Tarion warranty inspections across GTA.",
+      "isPartOf": { "@id": "https://asads.ca/#website" },
+      "about": { "@id": "https://asads.ca/#business" },
+      "breadcrumb": { "@id": "https://asads.ca/#breadcrumb" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://asads.ca/#breadcrumb",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://asads.ca/"
+      }]
     }
   ]
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-    {
-      "@type":"ListItem",
-      "position":1,
-      "name":"Home",
-      "item":"https://asads.ca/"
-    },
-    {
-      "@type":"ListItem",
-      "position":2,
-      "name":"Services",
-      "item":"https://asads.ca/#services"
-    },
-    {
-      "@type":"ListItem",
-      "position":3,
-      "name":"Home Inspection",
-      "item":"https://asads.ca/services/home-inspection.html"
-    }
-  ]
-}
-</script>
+
 <script type="application/ld+json">
 {
   "@context":"https://schema.org",
