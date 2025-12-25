@@ -1,7 +1,4 @@
 # BEGIN Cloudflare Managed content
-User-agent: *
-Allow: /
-
 User-agent: Amazonbot
 Disallow: /
 
@@ -25,9 +22,12 @@ Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
-
 # END Cloudflare Managed Content
 
+# General Settings
 User-agent: *
 Allow: /
+Disallow: /cgi-bin/
+
+# Link to your new clean sitemap
 Sitemap: https://asads.ca/sitemap.xml
