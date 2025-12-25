@@ -37,41 +37,58 @@
   <meta name="twitter:image:alt" content="ASADS Certified WETT Inspector examining a fireplace in Toronto."/>
   <meta name="twitter:url" content="https://asads.ca/services/wett-inspection-toronto.html"/>
   <!-- SCHEMA -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "WETT Inspection Toronto",
-    "provider": {
-      "@type": "HomeInspector",
-      "name": "ASADS Home Inspection",
-      "url": "https://asads.ca",
-      "telephone": "+16478019311",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "ON",
-        "addressCountry": "CA"
-      },
-      "priceRange": "$$",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1200",
-        "bestRating": "5"
-      }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "WETT Inspection Toronto",
+  "serviceType": "WETT Inspection",
+  "description": "Certified Wood Energy Technology Transfer inspections for wood-burning appliances and chimneys.",
+  "provider": {
+    "@type": "HomeInspector",
+    "name": "ASADS Home Inspection",
+    "url": "https://asads.ca/",
+    "telephone": "+1-647-801-9311",
+    "image": "https://asads.ca/images/logo.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
     },
-    "areaServed": ["Toronto", "Mississauga", "Brampton", "Vaughan", "Markham", "Oakville", "Burlington"],
-    "serviceType": "WETT Inspection",
-    "description": "Certified Wood Energy Technology Transfer inspections for wood-burning appliances and chimneys.",
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "CAD",
-      "lowPrice": "249",
-      "highPrice": "499"
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1200",
+      "bestRating": "5"
     }
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Toronto" },
+    { "@type": "City", "name": "Mississauga" },
+    { "@type": "City", "name": "Brampton" },
+    { "@type": "City", "name": "Vaughan" },
+    { "@type": "City", "name": "Markham" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "WETT Inspection Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "WETT Inspection"
+        },
+        "priceCurrency": "CAD",
+        "price": "249.00"
+      }
+    ]
   }
-  </script>
+}
+</script>
+
   
   <!-- CSS -->
   <style>
