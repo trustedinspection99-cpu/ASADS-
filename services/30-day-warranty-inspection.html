@@ -49,35 +49,46 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
+      "@type": "HomeInspector",
       "@id": "https://asads.ca/#localbusiness",
       "name": "ASADS Home Inspection",
       "url": "https://asads.ca/",
-      "telephone": "+16478019311",
+      "telephone": "+1-647-801-9311",
+      "image": "https://asads.ca/images/logo.png",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Toronto",
         "addressRegion": "ON",
         "addressCountry": "CA"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Toronto & GTA"
       }
     },
     {
       "@type": "Service",
       "name": "30-Day Tarion Warranty Inspection",
       "serviceType": "New Home Warranty Inspection",
+      "description": "Comprehensive inspection of new homes within the first 30 days of possession to document Tarion warranty deficiencies.",
       "provider": {
         "@id": "https://asads.ca/#localbusiness"
       },
-      "url": "https://asads.ca/services/30-day-warranty-inspection.html",
-      "description": "Comprehensive inspection of new homes within the first 30 days of possession to document Tarion warranty deficiencies.",
-      "offers": {
-        "@type": "Offer",
-        "priceCurrency": "CAD",
-        "priceRange": "$350-$550"
+      "areaServed": {
+        "@type": "State",
+        "name": "Ontario"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Warranty Inspection Pricing",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "30-Day Tarion Inspection"
+            },
+            "priceCurrency": "CAD",
+            "price": "350.00"
+          }
+        ]
       }
     },
     {
@@ -92,20 +103,15 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Services",
-          "item": "https://asads.ca/#services"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "30-Day Tarion Warranty Inspection",
-          "item": "https://asads.ca/services/30-day-warranty-inspection.html"
+          "name": "Tarion Warranty Inspection",
+          "item": "https://asads.ca/services/tarion-warranty-inspection.html"
         }
       ]
     }
   ]
 }
-  </script>
+</script>
+
   
   <!-- Core Styles (Same as Main Site) -->
   <style>
