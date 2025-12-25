@@ -128,51 +128,85 @@
       "ratingValue": "4.9",
       "reviewCount": "1200",
       "bestRating": "5",
-      "worstRating": "1",
-      "itemReviewed": {
-        "@type": "ProfessionalService",
-        "name": "ASADS Home Inspection",
-        "@id": "https://asads.ca/#business"
-      }
-    },
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@type": "WebSite",
-      "@id": "https://asads.ca/#website",
-      "url": "https://asads.ca/",
+      "@type": "HomeInspector",
+      "@id": "https://asads.ca/#business",
       "name": "ASADS Home Inspection",
-      "description": "Certified home inspection services in Toronto and GTA",
-      "publisher": {"@id": "https://asads.ca/#business"},
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://asads.ca/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
+      "url": "https://asads.ca/",
+      "telephone": "+1-647-801-9311",
+      "email": "info@asads.ca",
+      "image": "https://asads.ca/images/toronto-home-inspector-og.jpg",
+      "logo": "https://asads.ca/logo.png",
+      "priceRange": "$$",
+      "description": "Certified home inspection services in Toronto & GTA with same-day digital reports, thermal imaging, and mold testing.",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "E-Transfer"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200",
+        "bestRating": "5"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ASADSHomeInspection",
+        "https://www.instagram.com/asads_home_inspection"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Home Inspection Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Core Inspection Services",
+            "itemListElement": [
+              {"@type": "Service", "name": "Pre-purchase Home Inspection"},
+              {"@type": "Service", "name": "Condo Inspection"},
+              {"@type": "Service", "name": "New Construction Inspection"},
+              {"@type": "Service", "name": "Tarion Warranty Inspection"}
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Specialized Inspections",
+            "itemListElement": [
+              {"@type": "Service", "name": "Infrared Thermal Imaging"},
+              {"@type": "Service", "name": "Mold Testing"},
+              {"@type": "Service", "name": "WETT Inspection"},
+              {"@type": "Service", "name": "Sewer Scope Inspection"}
+            ]
+          }
+        ]
       }
     },
     {
       "@type": "WebPage",
       "@id": "https://asads.ca/#webpage",
       "url": "https://asads.ca/",
-      "name": "Certified Home Inspector Toronto | Pre-Purchase & Condo Inspections GTA | ASADS",
-      "isPartOf": {"@id": "https://asads.ca/#website"},
-      "about": {"@id": "https://asads.ca/#business"},
-      "description": "Licensed Toronto home inspector with same-day digital reports & thermal imaging. Pre-purchase, condo & Tarion warranty inspections across GTA.",
-      "breadcrumb": {"@id": "https://asads.ca/#breadcrumb"}
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://asads.ca/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://asads.ca/"
-        }
-      ]
+      "name": "Certified Home Inspector Toronto | ASADS",
+      "description": "Licensed Toronto home inspector with same-day digital reports & thermal imaging.",
+      "isPartOf": { "@id": "https://asads.ca/#website" },
+      "about": { "@id": "https://asads.ca/#business" },
+      "breadcrumb": { "@id": "https://asads.ca/#breadcrumb" }
     }
   ]
 }
 </script>
+
 
 <!-- ADDED: Local Business Schema -->
 <script type="application/ld+json">
