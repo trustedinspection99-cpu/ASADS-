@@ -23,40 +23,55 @@
 
 <!-- Structured Data: Service -->
 <script type="application/ld+json">
-<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "LocalBusiness",
+      "@type": "HomeInspector",
       "@id": "https://asads.ca/#localbusiness",
       "name": "ASADS Home Inspection",
       "url": "https://asads.ca/",
-      "telephone": "+16478019311",
+      "telephone": "+1-647-801-9311",
+      "image": "https://asads.ca/images/logo.png",
+      "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Toronto",
         "addressRegion": "ON",
         "addressCountry": "CA"
-      },
-      "areaServed": {
-        "@type": "Place",
-        "name": "Toronto & GTA"
       }
     },
     {
       "@type": "Service",
       "name": "Same-Day Home Inspection Reports",
-      "serviceType": "Home Inspection",
+      "serviceType": "Home Inspection Reporting",
+      "description": "Comprehensive home inspection reports delivered the same day with photos, thermal imaging, and prioritized recommendations.",
       "provider": {
         "@id": "https://asads.ca/#localbusiness"
       },
-      "url": "https://asads.ca/services/same-day-reports.html",
-      "description": "Get your comprehensive home inspection report delivered the same day with photos, thermal imaging results, and prioritized recommendations."
+      "url": "https://asads.ca/services/same-day-reports.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://asads.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Same-Day Reports",
+          "item": "https://asads.ca/services/same-day-reports.html"
+        }
+      ]
     }
   ]
 }
 </script>
+
 
 <script type="application/ld+json">
 {
