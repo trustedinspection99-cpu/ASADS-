@@ -24,10 +24,10 @@ User-agent: meta-externalagent
 Disallow: /
 # END Cloudflare Managed Content
 
-# General Settings
+# General Crawler Settings
 User-agent: *
 Allow: /
-Disallow: /cgi-bin/
+Disallow: /services/services/
 
-# Link to your new clean sitemap
+# Point to your clean sitemap
 Sitemap: https://asads.ca/sitemap.xml
