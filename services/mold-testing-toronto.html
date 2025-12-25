@@ -44,55 +44,60 @@
 
   <!-- SCHEMA MARKUP - HEALTH SERVICE FOCUS -->
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalTest",
-    "name": "Mold Testing Toronto",
-    "description": "Professional mold testing and indoor air quality analysis for residential and commercial properties.",
-    "provider": {
-      "@type": "HomeInspector",
-      "name": "ASADS Home Inspection",
-      "url": "https://asads.ca",
-      "telephone": "+16478019311",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "ON",
-        "addressCountry": "CA"
-      },
-      "priceRange": "$$",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1200",
-        "bestRating": "5"
-      }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Mold Testing Toronto",
+  "serviceType": "Indoor Air Quality & Mold Inspection",
+  "description": "Professional mold testing and indoor air quality analysis for residential and commercial properties. AIHA-certified lab results included.",
+  "provider": {
+    "@type": "HomeInspector",
+    "name": "ASADS Home Inspection",
+    "url": "https://asads.ca/",
+    "telephone": "+1-647-801-9311",
+    "image": "https://asads.ca/images/logo.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
     },
-    "affiliatedLab": {
-      "@type": "DiagnosticLab",
-      "name": "AIHA-Accredited Laboratory",
-      "accreditation": "American Industrial Hygiene Association"
-    },
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 43.653226,
-        "longitude": -79.383184
-      },
-      "geoRadius": "150000"
-    },
-    "testType": ["Air Quality Testing", "Surface Sampling", "PCR Mold Analysis"],
-    "healthCondition": ["Mold Allergy", "Asthma", "Respiratory Issues"],
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "CAD",
-      "lowPrice": "349",
-      "highPrice": "999"
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1200",
+      "bestRating": "5"
     }
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "geoRadius": "100000"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Mold Testing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Air Quality & Surface Sampling"
+        },
+        "priceCurrency": "CAD",
+        "price": "349.00"
+      }
+    ]
   }
-  </script>
+}
+</script>
+
   
   <!-- CSS - CONSISTENT DESIGN SYSTEM -->
   <style>
