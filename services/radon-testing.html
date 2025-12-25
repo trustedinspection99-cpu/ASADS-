@@ -45,60 +45,59 @@
   <!-- SCHEMA MARKUP - CANCER PREVENTION FOCUS -->
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "MedicalTest",
-    "name": "Radon Testing Toronto",
-    "description": "Certified radon gas testing and mitigation services for residential and commercial properties.",
-    "provider": {
-      "@type": "HomeInspector",
-      "name": "ASADS Home Inspection",
-      "url": "https://asads.ca",
-      "telephone": "+16478019311",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "ON",
-        "addressCountry": "CA"
-      },
-      "priceRange": "$$",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1200",
-        "bestRating": "5"
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Radon Testing Toronto",
+  "serviceType": "Radon Gas Detection & Mitigation",
+  "description": "Certified radon gas testing and mitigation services for residential and commercial properties in Toronto and the GTA.",
+  "provider": {
+    "@type": "HomeInspector",
+    "name": "ASADS Home Inspection",
+    "url": "https://asads.ca/",
+    "telephone": "+1-647-801-9311",
+    "image": "https://asads.ca/images/logo.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
     },
-    "code": {
-      "@type": "MedicalCode",
-      "codeValue": "Radon-222",
-      "codingSystem": "Health Canada"
-    },
-    "guideline": {
-      "@type": "MedicalGuideline",
-      "guidelineSubject": "Radon Testing",
-      "guidelineDate": "2023-01-01",
-      "url": "https://www.canada.ca/en/health-canada/services/radiation/radon.html"
-    },
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 43.653226,
-        "longitude": -79.383184
-      },
-      "geoRadius": "150000"
-    },
-    "testType": ["Long-Term Radon Test", "Short-Term Radon Test", "Continuous Radon Monitoring"],
-    "healthCondition": ["Lung Cancer", "Radon Exposure"],
-    "offers": {
-      "@type": "AggregateOffer",
-      "priceCurrency": "CAD",
-      "lowPrice": "199",
-      "highPrice": "2999"
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1200",
+      "bestRating": "5"
     }
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "geoRadius": "100000"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Radon Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Long-Term Radon Test"
+        },
+        "priceCurrency": "CAD",
+        "price": "199.00"
+      }
+    ]
   }
-  </script>
+}
+</script>
+
   
   <!-- CSS - CONSISTENT DESIGN SYSTEM -->
   <style>
