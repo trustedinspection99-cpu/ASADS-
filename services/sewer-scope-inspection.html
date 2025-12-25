@@ -45,61 +45,73 @@
   <!-- SCHEMA MARKUP - OUTPERFORM PILLAR TO POST, AMERISPEC -->
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Sewer Camera Inspection Toronto",
-    "provider": {
-      "@type": "HomeInspector",
-      "name": "ASADS Home Inspection",
-      "url": "https://asads.ca",
-      "telephone": "+16478019311",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Toronto",
-        "addressRegion": "ON",
-        "addressCountry": "CA"
-      },
-      "priceRange": "$$",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "1200",
-        "bestRating": "5"
-      },
-      "makesOffer": [
-        {
-          "@type": "Offer",
-          "name": "Standard Sewer Scope",
-          "price": "299",
-          "priceCurrency": "CAD"
-        },
-        {
-          "@type": "Offer",
-          "name": "Premium HD Sewer Inspection",
-          "price": "399",
-          "priceCurrency": "CAD"
-        }
-      ]
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Sewer Camera Inspection Toronto",
+  "serviceType": "Sewer Scope Inspection",
+  "description": "Professional CCTV sewer camera inspection services for residential and commercial properties. Same-day video reports included.",
+  "provider": {
+    "@type": "HomeInspector",
+    "name": "ASADS Home Inspection",
+    "url": "https://asads.ca/",
+    "telephone": "+1-647-801-9311",
+    "image": "https://asads.ca/images/logo.png",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Toronto",
+      "addressRegion": "ON",
+      "addressCountry": "CA"
     },
-    "areaServed": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": 43.653226,
-        "longitude": -79.383184
-      },
-      "geoRadius": "150000"
-    },
-    "serviceType": "Sewer Inspection",
-    "description": "Professional CCTV sewer camera inspection services for residential and commercial properties.",
-    "serviceOutput": {
-      "@type": "DigitalDocument",
-      "name": "Sewer Inspection Video Report",
-      "encodingFormat": "video/mp4"
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "1200",
+      "bestRating": "5"
     }
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    },
+    "geoRadius": "100000"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Sewer Inspection Packages",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Standard Sewer Scope"
+        },
+        "price": "299.00",
+        "priceCurrency": "CAD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Premium HD Sewer Inspection"
+        },
+        "price": "399.00",
+        "priceCurrency": "CAD"
+      }
+    ]
+  },
+  "serviceOutput": {
+    "@type": "DigitalDocument",
+    "name": "Sewer Inspection Video Report",
+    "encodingFormat": "video/mp4"
   }
-  </script>
+}
+</script>
+
   
   <!-- CSS - SAME DESIGN SYSTEM AS WETT PAGE -->
   <style>
