@@ -30,4 +30,4 @@ Allow: /
 Disallow: /services/services/
 
 # Point to your clean sitemap
-Sitemap: https://asads.ca/sitemap.xml
+Sitemap: https://www.asads.ca/sitemap.xml
